@@ -43,7 +43,7 @@ def patientEmbeddings(patient):
             f"Instruções: {', '.join(consultation.get('instructions', []))}"
         )
         consultations_embeddings.append(generate_embedding(consultation_text))
-    embeddings["consultations"] = consultations_embeddings
+    embeddings["consultations_embeddings"] = consultations_embeddings
 
     # vaccine_info
     vaccines = ", ".join(patient["vaccine_info"].get("vaccines", []))
@@ -58,8 +58,7 @@ def patientInsert(patientJsonPath):
 
     patient["patient_info"]["embedding"] = embeddings["patient_info"]
     patient["medical_history"]["embedding"] = embeddings["medical_history"]
-    for idx, consultation in enumerate(patient["consultations"]):
-        consultation["embedding"] = embeddings["consultations"][idx]
+    patient["consultations_embeddings"] = embeddings["consultations_embeddings"]
     patient["vaccine_info"]["embedding"] = embeddings["vaccine_info"]
     
     db.patients.insert_one(patient)

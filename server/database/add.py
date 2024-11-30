@@ -7,6 +7,6 @@ if __name__ == "__main__":
     patient_path = "mocks/patient_mock.json"
     conversation_path = "mocks/conversation_mock.json"
     
-    # doctorInsert(doctor_path)
-    # patientInsert(patient_path)
-    # conversationInsert(conversation_path)
+    doctorInsert(doctor_path)
+    patientInsert(patient_path)
+    conversationInsert(conversation_path)
