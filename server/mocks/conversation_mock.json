@@ -1,0 +1,16 @@
+{
+    "_id": "conversation_001",
+    "doctor_id": "doctor_001",
+    "messages": [
+      {
+        "timestamp": "2024-11-28T10:30:00Z",
+        "sender": "doctor",
+        "message": "Qual foi o último exame solicitado para o paciente João da Silva?"
+      },
+      {
+        "timestamp": "2024-11-28T10:30:05Z",
+        "sender": "chatbot",
+        "message": "O último exame solicitado foi um hemograma, glicemia e creatinina em 10/09/2024."
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+{
+    "_id": "patient_001",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+      "name": "João da Silva",
+      "birth_date": "1980-02-15",
+      "gender": "Masculino",
+      "address": "Rua Exemplo, 123, São Paulo - SP",
+      "phone": "(11) 1234-5678",
+      "insurance": "Particular"
+    },
+    "medical_history": {
+      "chronic_conditions": ["Hipertensão (2015)", "Diabetes tipo 2 (2018)"],
+      "allergies": ["Alergia a penicilina"],
+      "surgeries": ["Apendicectomia (2010)"],
+      "current_medications": ["Losartana 50 mg, 1x ao dia", "Metformina 850 mg, 2x ao dia"]
+    },
+    "consultations": [
+      {
+        "date": "2024-09-10",
+        "reason": "Consulta de rotina",
+        "symptoms": ["Sem queixas significativas"],
+        "exams_requested": ["Hemograma", "Glicemia", "Creatinina"],
+        "instructions": ["Manter dieta com baixo teor de carboidratos", "Retorno em 3 meses"]
+      }
+    ],
+    "vaccine_info": {
+      "vaccines": ["Influenza (2024)", "Hepatite B (Completa)", "Tétano (2022)"]
+    }
+  }
