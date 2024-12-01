@@ -1,4 +1,4 @@
-[
+patients_list = [
     {
         "_id": "patient_001",
         "doctor_id": "doctor_001",
