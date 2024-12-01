@@ -1,0 +1,44 @@
+{
+    "_id": "patient_004",
+    "doctor_id": "doctor_003",
+    "patient_info": {
+      "name": "Ana Clara",
+      "birth_date": "1985-03-08",
+      "gender": "Feminino",
+      "address": "Praça das Águas, 654, Fortaleza - CE",
+      "phone": "(85) 92345-6789",
+      "insurance": "Particular"
+    },
+    "medical_history": {
+      "chronic_conditions": ["Enxaqueca crônica (2010)", "Hipertensão (2020)"],
+      "allergies": ["Alergia a frutos do mar"],
+      "surgeries": ["Cistectomia ovariana (2015)"],
+      "current_medications": ["Propranolol 40 mg, 2x ao dia", "Naproxeno 500 mg, conforme necessário"]
+    },
+    "consultations": [
+      {
+        "date": "2024-08-25",
+        "reason": "Controle de hipertensão",
+        "symptoms": ["Pressão arterial elevada"],
+        "exams_requested": ["MAPA (Monitorização Ambulatorial da Pressão Arterial)"],
+        "instructions": ["Reduzir consumo de sal", "Praticar exercícios físicos"]
+      },
+      {
+        "date": "2024-04-18",
+        "reason": "Dor de cabeça intensa",
+        "symptoms": ["Náusea", "Sensibilidade à luz"],
+        "exams_requested": ["Ressonância magnética do crânio"],
+        "instructions": ["Prescrição de analgésicos", "Retorno em 1 mês"]
+      },
+      {
+        "date": "2023-11-30",
+        "reason": "Consulta de rotina",
+        "symptoms": ["Sem queixas significativas"],
+        "exams_requested": ["Hemograma completo", "Colesterol total e frações"],
+        "instructions": ["Manter alimentação equilibrada", "Retorno em 6 meses"]
+      }
+    ],
+    "vaccine_info": {
+      "vaccines": ["Influenza (2023)", "COVID-19 (2022)", "Hepatite B (Completa)"]
+    }
+  }

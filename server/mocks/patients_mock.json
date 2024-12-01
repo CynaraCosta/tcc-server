@@ -1,0 +1,398 @@
+[
+    {
+        "_id": "patient_001",
+        "doctor_id": "doctor_001",
+        "patient_info": {
+          "name": "João da Silva",
+          "birth_date": "1980-02-15",
+          "gender": "Masculino",
+          "address": "Rua Exemplo, 123, São Paulo - SP",
+          "phone": "(11) 1234-5678",
+          "insurance": "Particular"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Hipertensão (2015)", "Diabetes tipo 2 (2018)"],
+          "allergies": ["Alergia a penicilina"],
+          "surgeries": ["Apendicectomia (2010)"],
+          "current_medications": ["Losartana 50 mg, 1x ao dia", "Metformina 850 mg, 2x ao dia"]
+        },
+        "consultations": [
+          {
+            "date": "2024-09-10",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Sem queixas significativas"],
+            "exams_requested": ["Hemograma", "Glicemia", "Creatinina"],
+            "instructions": ["Manter dieta com baixo teor de carboidratos", "Retorno em 3 meses"]
+          },
+          {
+            "date": "2024-07-15",
+            "reason": "Dor de cabeça persistente",
+            "symptoms": ["Dor de cabeça moderada", "Sensibilidade à luz"],
+            "exams_requested": ["Ressonância magnética do crânio"],
+            "instructions": ["Prescrição de analgésico (Dipirona 500mg)", "Retorno em 1 mês se os sintomas persistirem"]
+        },
+        {
+            "date": "2024-06-20",
+            "reason": "Consulta de rotina para hipertensão",
+            "symptoms": ["Pressão arterial elevada ocasional"],
+            "exams_requested": ["Mapa (Monitorização Ambulatorial da Pressão Arterial)"],
+            "instructions": ["Reduzir consumo de sódio", "Realizar atividades físicas regularmente", "Retorno em 2 meses"]
+        },
+        {
+            "date": "2024-04-10",
+            "reason": "Acompanhamento de diabetes",
+            "symptoms": ["Níveis de glicemia levemente elevados"],
+            "exams_requested": ["Hemoglobina glicada", "Glicemia pós-prandial"],
+            "instructions": ["Ajustar dosagem de Metformina para 1g", "Consulta com nutricionista"]
+        },
+        {
+            "date": "2024-02-05",
+            "reason": "Dor abdominal intermitente",
+            "symptoms": ["Dor no lado direito do abdômen", "Inchaço após refeições gordurosas"],
+            "exams_requested": ["Ultrassonografia abdominal"],
+            "instructions": ["Evitar alimentos gordurosos", "Prescrição de antiespasmódico"]
+        },
+        {
+            "date": "2024-01-12",
+            "reason": "Infecção respiratória",
+            "symptoms": ["Tosse seca", "Congestão nasal", "Febre leve"],
+            "exams_requested": ["Raio-X do tórax"],
+            "instructions": ["Prescrição de antibiótico (Amoxicilina 500mg)", "Manter hidratação e repouso"]
+        }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2024)", "Hepatite B (Completa)", "Tétano (2022)"]
+        }
+      }, 
+      {
+        "_id": "patient_002",
+        "doctor_id": "doctor_001",
+        "patient_info": {
+          "name": "Maria Oliveira",
+          "birth_date": "1975-05-22",
+          "gender": "Feminino",
+          "address": "Avenida Central, 456, Recife - PE",
+          "phone": "(81) 98765-4321",
+          "insurance": "Plano de Saúde XYZ"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Hipotireoidismo (2010)", "Artrite reumatoide (2018)"],
+          "allergies": ["Alergia a anti-inflamatórios não esteroidais (AINEs)"],
+          "surgeries": ["Cesariana (2005)"],
+          "current_medications": ["Levotiroxina 75 mcg, 1x ao dia", "Ibuprofeno 400 mg, conforme necessário"]
+        },
+        "consultations": [
+          {
+            "date": "2024-09-20",
+            "reason": "Consulta de rotina para artrite reumatoide",
+            "symptoms": ["Dores articulares leves", "Rigidez matinal"],
+            "exams_requested": ["Hemograma completo", "PCR (Proteína C Reativa)", "Fator reumatoide"],
+            "instructions": ["Continuar com fisioterapia", "Ajustar dosagem de Ibuprofeno se necessário"]
+          },
+          {
+            "date": "2024-07-10",
+            "reason": "Exame de tireoide",
+            "symptoms": ["Fadiga leve", "Alterações de humor"],
+            "exams_requested": ["TSH (Hormônio Estimulante da Tireoide)", "T4 Livre"],
+            "instructions": ["Ajustar dosagem de Levotiroxina", "Retorno em 3 meses"]
+          },
+          {
+            "date": "2024-03-15",
+            "reason": "Infecção urinária",
+            "symptoms": ["Dor ao urinar", "Aumento da frequência urinária"],
+            "exams_requested": ["Urocultura", "EAS (Exame de Urina Simples)"],
+            "instructions": ["Prescrição de antibiótico (Nitrofurantoína 100 mg)", "Aumentar ingestão de líquidos"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2024)", "Hepatite B (Completa)", "HPV (2010)", "Tétano (2022)"]
+        }
+      },
+      {
+        "_id": "patient_003",
+        "doctor_id": "doctor_002",
+        "patient_info": {
+          "name": "Carlos Eduardo",
+          "birth_date": "1990-11-12",
+          "gender": "Masculino",
+          "address": "Rua das Flores, 789, Salvador - BA",
+          "phone": "(71) 91234-5678",
+          "insurance": "Plano de Saúde ABC"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Asma (2000)"],
+          "allergies": ["Alergia a poeira", "Alergia a látex"],
+          "surgeries": ["Correção de hérnia inguinal (2015)"],
+          "current_medications": ["Salbutamol spray, conforme necessário", "Montelucaste 10 mg, 1x ao dia"]
+        },
+        "consultations": [
+          {
+            "date": "2024-10-05",
+            "reason": "Controle de asma",
+            "symptoms": ["Episódios ocasionais de falta de ar", "Tosse noturna"],
+            "exams_requested": ["Espirometria"],
+            "instructions": ["Evitar exposição a alérgenos", "Manter o uso de Montelucaste"]
+          },
+          {
+            "date": "2024-06-15",
+            "reason": "Resfriado comum",
+            "symptoms": ["Congestão nasal", "Febre baixa"],
+            "exams_requested": ["Hemograma"],
+            "instructions": ["Repouso e hidratação", "Uso de paracetamol para febre"]
+          },
+          {
+            "date": "2024-01-20",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Sem queixas significativas"],
+            "exams_requested": ["Hemograma", "Exame de glicemia"],
+            "instructions": ["Manter hábitos saudáveis", "Retorno em 6 meses"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2023)", "COVID-19 (2021)", "Tétano (2019)"]
+        }
+      },
+      {
+        "_id": "patient_004",
+        "doctor_id": "doctor_003",
+        "patient_info": {
+          "name": "Ana Clara",
+          "birth_date": "1985-03-08",
+          "gender": "Feminino",
+          "address": "Praça das Águas, 654, Fortaleza - CE",
+          "phone": "(85) 92345-6789",
+          "insurance": "Particular"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Enxaqueca crônica (2010)", "Hipertensão (2020)"],
+          "allergies": ["Alergia a frutos do mar"],
+          "surgeries": ["Cistectomia ovariana (2015)"],
+          "current_medications": ["Propranolol 40 mg, 2x ao dia", "Naproxeno 500 mg, conforme necessário"]
+        },
+        "consultations": [
+          {
+            "date": "2024-08-25",
+            "reason": "Controle de hipertensão",
+            "symptoms": ["Pressão arterial elevada"],
+            "exams_requested": ["MAPA (Monitorização Ambulatorial da Pressão Arterial)"],
+            "instructions": ["Reduzir consumo de sal", "Praticar exercícios físicos"]
+          },
+          {
+            "date": "2024-04-18",
+            "reason": "Dor de cabeça intensa",
+            "symptoms": ["Náusea", "Sensibilidade à luz"],
+            "exams_requested": ["Ressonância magnética do crânio"],
+            "instructions": ["Prescrição de analgésicos", "Retorno em 1 mês"]
+          },
+          {
+            "date": "2023-11-30",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Sem queixas significativas"],
+            "exams_requested": ["Hemograma completo", "Colesterol total e frações"],
+            "instructions": ["Manter alimentação equilibrada", "Retorno em 6 meses"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2023)", "COVID-19 (2022)", "Hepatite B (Completa)"]
+        }
+      },
+      {
+        "_id": "patient_006",
+        "doctor_id": "doctor_004",
+        "patient_info": {
+          "name": "Lucas Pereira",
+          "birth_date": "1995-09-18",
+          "gender": "Masculino",
+          "address": "Rua dos Coqueiros, 321, Belo Horizonte - MG",
+          "phone": "(31) 99876-5432",
+          "insurance": "Plano de Saúde GHJ"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Colesterol alto (2022)"],
+          "allergies": ["Alergia a frutos secos"],
+          "surgeries": ["Correção de desvio de septo (2018)"],
+          "current_medications": ["Sinvastatina 20 mg, 1x ao dia"]
+        },
+        "consultations": [
+          {
+            "date": "2024-09-30",
+            "reason": "Controle do colesterol",
+            "symptoms": ["Nenhum sintoma significativo"],
+            "exams_requested": ["Perfil lipídico completo"],
+            "instructions": ["Manter dieta com baixo teor de gordura", "Praticar exercícios físicos"]
+          },
+          {
+            "date": "2024-07-25",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Sem queixas"],
+            "exams_requested": ["Hemograma", "Eletrocardiograma"],
+            "instructions": ["Manter hábitos saudáveis"]
+          },
+          {
+            "date": "2024-03-10",
+            "reason": "Refluxo gástrico",
+            "symptoms": ["Azia", "Queimação no estômago"],
+            "exams_requested": ["Endoscopia digestiva alta"],
+            "instructions": ["Evitar alimentos gordurosos e picantes", "Usar Omeprazol conforme orientação médica"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["COVID-19 (2021)", "Influenza (2023)", "Hepatite A (2020)"]
+        }
+      },
+      {
+        "_id": "patient_007",
+        "doctor_id": "doctor_005",
+        "patient_info": {
+          "name": "Fernanda Souza",
+          "birth_date": "1987-02-14",
+          "gender": "Feminino",
+          "address": "Alameda das Palmeiras, 567, Rio de Janeiro - RJ",
+          "phone": "(21) 97654-3210",
+          "insurance": "Plano de Saúde ZYX"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Asma (2005)"],
+          "allergies": ["Alergia a mofo"],
+          "surgeries": ["Cesariana (2013)"],
+          "current_medications": ["Fluticasona spray nasal, 1x ao dia", "Salbutamol spray, conforme necessário"]
+        },
+        "consultations": [
+          {
+            "date": "2024-10-10",
+            "reason": "Controle de asma",
+            "symptoms": ["Tosse seca ocasional", "Sensação de aperto no peito"],
+            "exams_requested": ["Espirometria"],
+            "instructions": ["Evitar ambientes com mofo", "Manter o uso de Fluticasona"]
+          },
+          {
+            "date": "2024-06-05",
+            "reason": "Resfriado comum",
+            "symptoms": ["Congestão nasal", "Dor de garganta"],
+            "exams_requested": ["Hemograma"],
+            "instructions": ["Hidratação e repouso", "Uso de antitérmicos se necessário"]
+          },
+          {
+            "date": "2024-02-20",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Nenhuma queixa"],
+            "exams_requested": ["Hemograma", "Eletrocardiograma"],
+            "instructions": ["Manter hábitos saudáveis", "Retorno em 1 ano"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["COVID-19 (2021)", "Influenza (2023)", "Tétano (2020)"]
+        }
+      },
+      {
+        "_id": "patient_008",
+        "doctor_id": "doctor_006",
+        "patient_info": {
+          "name": "Clara Mendes",
+          "birth_date": "1998-12-03",
+          "gender": "Feminino",
+          "address": "Rua Nova, 456, Curitiba - PR",
+          "phone": "(41) 98765-1234",
+          "insurance": "Particular"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Nenhuma"],
+          "allergies": ["Nenhuma conhecida"],
+          "surgeries": ["Nenhuma"],
+          "current_medications": ["Nenhum"]
+        },
+        "consultations": [
+          {
+            "date": "2024-09-15",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Sem sintomas"],
+            "exams_requested": ["Hemograma", "Exame de urina"],
+            "instructions": ["Manter alimentação equilibrada", "Retorno em 1 ano"]
+          },
+          {
+            "date": "2024-05-10",
+            "reason": "Dor nas costas",
+            "symptoms": ["Dor lombar leve"],
+            "exams_requested": ["Raio-X da coluna"],
+            "instructions": ["Fazer alongamentos", "Uso de analgésico se necessário"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2024)", "HPV (2015)", "Hepatite B (Completa)"]
+        }
+      },
+      {
+        "_id": "patient_009",
+        "doctor_id": "doctor_007",
+        "patient_info": {
+          "name": "Pedro Almeida",
+          "birth_date": "1970-01-20",
+          "gender": "Masculino",
+          "address": "Rua Antiga, 890, Porto Alegre - RS",
+          "phone": "(51) 99987-6543",
+          "insurance": "Plano de Saúde DEF"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Diabetes tipo 2 (2010)", "Hipertensão (2015)"],
+          "allergies": ["Alergia a sulfa"],
+          "surgeries": ["Cirurgia de catarata (2020)"],
+          "current_medications": ["Metformina 850 mg, 2x ao dia", "Losartana 50 mg, 1x ao dia"]
+        },
+        "consultations": [
+          {
+            "date": "2024-08-01",
+            "reason": "Controle de diabetes",
+            "symptoms": ["Níveis de glicemia elevados"],
+            "exams_requested": ["Hemoglobina glicada"],
+            "instructions": ["Ajustar dieta", "Aumentar dose de Metformina"]
+          },
+          {
+            "date": "2024-03-15",
+            "reason": "Consulta de rotina para hipertensão",
+            "symptoms": ["Pressão arterial elevada"],
+            "exams_requested": ["MAPA"],
+            "instructions": ["Manter atividade física", "Reduzir consumo de sódio"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2023)", "COVID-19 (2021)", "Tétano (2020)"]
+        }
+      },
+      {
+        "_id": "patient_010",
+        "doctor_id": "doctor_001",
+        "patient_info": {
+          "name": "Sofia Martins",
+          "birth_date": "1993-04-10",
+          "gender": "Feminino",
+          "address": "Rua Bela Vista, 101, Florianópolis - SC",
+          "phone": "(48) 99876-5432",
+          "insurance": "Plano de Saúde ABC"
+        },
+        "medical_history": {
+          "chronic_conditions": ["Ansiedade (2018)"],
+          "allergies": ["Nenhuma"],
+          "surgeries": ["Nenhuma"],
+          "current_medications": ["Sertralina 50 mg, 1x ao dia"]
+        },
+        "consultations": [
+          {
+            "date": "2024-09-05",
+            "reason": "Acompanhamento de ansiedade",
+            "symptoms": ["Preocupação excessiva", "Dificuldade para dormir"],
+            "exams_requested": ["Nenhum"],
+            "instructions": ["Manter uso de Sertralina", "Praticar técnicas de relaxamento"]
+          },
+          {
+            "date": "2024-02-15",
+            "reason": "Consulta de rotina",
+            "symptoms": ["Nenhuma"],
+            "exams_requested": ["Hemograma completo"],
+            "instructions": ["Manter hábitos saudáveis"]
+          }
+        ],
+        "vaccine_info": {
+          "vaccines": ["Influenza (2023)", "COVID-19 (2021)", "HPV (2010)"]
+        }
+      }
+]

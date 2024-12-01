@@ -5,5 +5,5 @@
     "specialty": "Cardiologista",
     "hospital": "Hospital Exemplo",
     "password_hash": "hashed_password",
-    "patients": ["patient_001"]
+    "patients": ["patient_001, patient_002"]
   }

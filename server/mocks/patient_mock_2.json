@@ -1,0 +1,44 @@
+{
+    "_id": "patient_002",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+      "name": "Maria Oliveira",
+      "birth_date": "1975-05-22",
+      "gender": "Feminino",
+      "address": "Avenida Central, 456, Recife - PE",
+      "phone": "(81) 98765-4321",
+      "insurance": "Plano de Saúde XYZ"
+    },
+    "medical_history": {
+      "chronic_conditions": ["Hipotireoidismo (2010)", "Artrite reumatoide (2018)"],
+      "allergies": ["Alergia a anti-inflamatórios não esteroidais (AINEs)"],
+      "surgeries": ["Cesariana (2005)"],
+      "current_medications": ["Levotiroxina 75 mcg, 1x ao dia", "Ibuprofeno 400 mg, conforme necessário"]
+    },
+    "consultations": [
+      {
+        "date": "2024-09-20",
+        "reason": "Consulta de rotina para artrite reumatoide",
+        "symptoms": ["Dores articulares leves", "Rigidez matinal"],
+        "exams_requested": ["Hemograma completo", "PCR (Proteína C Reativa)", "Fator reumatoide"],
+        "instructions": ["Continuar com fisioterapia", "Ajustar dosagem de Ibuprofeno se necessário"]
+      },
+      {
+        "date": "2024-07-10",
+        "reason": "Exame de tireoide",
+        "symptoms": ["Fadiga leve", "Alterações de humor"],
+        "exams_requested": ["TSH (Hormônio Estimulante da Tireoide)", "T4 Livre"],
+        "instructions": ["Ajustar dosagem de Levotiroxina", "Retorno em 3 meses"]
+      },
+      {
+        "date": "2024-03-15",
+        "reason": "Infecção urinária",
+        "symptoms": ["Dor ao urinar", "Aumento da frequência urinária"],
+        "exams_requested": ["Urocultura", "EAS (Exame de Urina Simples)"],
+        "instructions": ["Prescrição de antibiótico (Nitrofurantoína 100 mg)", "Aumentar ingestão de líquidos"]
+      }
+    ],
+    "vaccine_info": {
+      "vaccines": ["Influenza (2024)", "Hepatite B (Completa)", "HPV (2010)", "Tétano (2022)"]
+    }
+  }

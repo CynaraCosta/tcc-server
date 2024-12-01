@@ -1,0 +1,44 @@
+{
+    "_id": "patient_003",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+      "name": "Carlos Eduardo",
+      "birth_date": "1990-11-12",
+      "gender": "Masculino",
+      "address": "Rua das Flores, 789, Salvador - BA",
+      "phone": "(71) 91234-5678",
+      "insurance": "Plano de Saúde ABC"
+    },
+    "medical_history": {
+      "chronic_conditions": ["Asma (2000)"],
+      "allergies": ["Alergia a poeira", "Alergia a látex"],
+      "surgeries": ["Correção de hérnia inguinal (2015)"],
+      "current_medications": ["Salbutamol spray, conforme necessário", "Montelucaste 10 mg, 1x ao dia"]
+    },
+    "consultations": [
+      {
+        "date": "2024-10-05",
+        "reason": "Controle de asma",
+        "symptoms": ["Episódios ocasionais de falta de ar", "Tosse noturna"],
+        "exams_requested": ["Espirometria"],
+        "instructions": ["Evitar exposição a alérgenos", "Manter o uso de Montelucaste"]
+      },
+      {
+        "date": "2024-06-15",
+        "reason": "Resfriado comum",
+        "symptoms": ["Congestão nasal", "Febre baixa"],
+        "exams_requested": ["Hemograma"],
+        "instructions": ["Repouso e hidratação", "Uso de paracetamol para febre"]
+      },
+      {
+        "date": "2024-01-20",
+        "reason": "Consulta de rotina",
+        "symptoms": ["Sem queixas significativas"],
+        "exams_requested": ["Hemograma", "Exame de glicemia"],
+        "instructions": ["Manter hábitos saudáveis", "Retorno em 6 meses"]
+      }
+    ],
+    "vaccine_info": {
+      "vaccines": ["Influenza (2023)", "COVID-19 (2021)", "Tétano (2019)"]
+    }
+  }

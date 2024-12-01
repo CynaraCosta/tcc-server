@@ -57,7 +57,7 @@ def patientInsert(patientJsonPath):
     embeddings = patientEmbeddings(patient)
 
     patient["patient_info"]["embedding"] = embeddings["patient_info"]
-    patient["medical_history"]["embedding"] = embeddings["medical_history"]
+    patient["medical_history_embedding"] = embeddings["medical_history"]
     patient["consultations_embeddings"] = embeddings["consultations_embeddings"]
     patient["vaccine_info"]["embedding"] = embeddings["vaccine_info"]
     
