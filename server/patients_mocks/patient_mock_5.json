@@ -1,0 +1,37 @@
+{
+  "_id": "patient_010",
+  "doctor_id": "doctor_001",
+  "patient_info": {
+    "name": "Sofia Martins",
+    "birth_date": "1993-04-10",
+    "gender": "Feminino",
+    "address": "Rua Bela Vista, 101, Florianópolis - SC",
+    "phone": "(48) 99876-5432",
+    "insurance": "Plano de Saúde ABC"
+  },
+  "medical_history": {
+    "chronic_conditions": ["Ansiedade (2018)"],
+    "allergies": ["Nenhuma"],
+    "surgeries": ["Nenhuma"],
+    "current_medications": ["Sertralina 50 mg, 1x ao dia"]
+  },
+  "consultations": [
+    {
+      "date": "2024-09-05",
+      "reason": "Acompanhamento de ansiedade",
+      "symptoms": ["Preocupação excessiva", "Dificuldade para dormir"],
+      "exams_requested": ["Nenhum"],
+      "instructions": ["Manter uso de Sertralina", "Praticar técnicas de relaxamento"]
+    },
+    {
+      "date": "2024-02-15",
+      "reason": "Consulta de rotina",
+      "symptoms": ["Nenhuma"],
+      "exams_requested": ["Hemograma completo"],
+      "instructions": ["Manter hábitos saudáveis"]
+    }
+  ],
+  "vaccine_info": {
+    "vaccines": ["Influenza (2023)", "COVID-19 (2021)", "HPV (2010)"]
+  }
+}

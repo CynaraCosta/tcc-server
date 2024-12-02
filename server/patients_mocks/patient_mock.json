@@ -1,0 +1,65 @@
+{
+    "_id": "patient_001",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+      "name": "João da Silva",
+      "birth_date": "1980-02-15",
+      "gender": "Masculino",
+      "address": "Rua Exemplo, 123, São Paulo - SP",
+      "phone": "(11) 1234-5678",
+      "insurance": "Particular"
+    },
+    "medical_history": {
+      "chronic_conditions": ["Hipertensão (2015)", "Diabetes tipo 2 (2018)"],
+      "allergies": ["Alergia a penicilina"],
+      "surgeries": ["Apendicectomia (2010)"],
+      "current_medications": ["Losartana 50 mg, 1x ao dia", "Metformina 850 mg, 2x ao dia"]
+    },
+    "consultations": [
+      {
+        "date": "2024-09-10",
+        "reason": "Consulta de rotina",
+        "symptoms": ["Sem queixas significativas"],
+        "exams_requested": ["Hemograma", "Glicemia", "Creatinina"],
+        "instructions": ["Manter dieta com baixo teor de carboidratos", "Retorno em 3 meses"]
+      },
+      {
+        "date": "2024-07-15",
+        "reason": "Dor de cabeça persistente",
+        "symptoms": ["Dor de cabeça moderada", "Sensibilidade à luz"],
+        "exams_requested": ["Ressonância magnética do crânio"],
+        "instructions": ["Prescrição de analgésico (Dipirona 500mg)", "Retorno em 1 mês se os sintomas persistirem"]
+    },
+    {
+        "date": "2024-06-20",
+        "reason": "Consulta de rotina para hipertensão",
+        "symptoms": ["Pressão arterial elevada ocasional"],
+        "exams_requested": ["Mapa (Monitorização Ambulatorial da Pressão Arterial)"],
+        "instructions": ["Reduzir consumo de sódio", "Realizar atividades físicas regularmente", "Retorno em 2 meses"]
+    },
+    {
+        "date": "2024-04-10",
+        "reason": "Acompanhamento de diabetes",
+        "symptoms": ["Níveis de glicemia levemente elevados"],
+        "exams_requested": ["Hemoglobina glicada", "Glicemia pós-prandial"],
+        "instructions": ["Ajustar dosagem de Metformina para 1g", "Consulta com nutricionista"]
+    },
+    {
+        "date": "2024-02-05",
+        "reason": "Dor abdominal intermitente",
+        "symptoms": ["Dor no lado direito do abdômen", "Inchaço após refeições gordurosas"],
+        "exams_requested": ["Ultrassonografia abdominal"],
+        "instructions": ["Evitar alimentos gordurosos", "Prescrição de antiespasmódico"]
+    },
+    {
+        "date": "2024-01-12",
+        "reason": "Infecção respiratória",
+        "symptoms": ["Tosse seca", "Congestão nasal", "Febre leve"],
+        "exams_requested": ["Raio-X do tórax"],
+        "instructions": ["Prescrição de antibiótico (Amoxicilina 500mg)", "Manter hidratação e repouso"]
+    }
+    ],
+    "vaccine_info": {
+      "vaccines": ["Influenza (2024)", "Hepatite B (Completa)", "Tétano (2022)"]
+    }
+  }

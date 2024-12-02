@@ -1,4 +1,5 @@
 import streamlit as st
+from gemini.gemini import query_data
 
 with st.sidebar:
     st.title(":blue[RAG Proof of Concept]")
@@ -8,6 +9,7 @@ query = st.text_area("Faça a sua pergunta", placeholder="Adicione a pergunta aq
 
 if st.button("Fazer pergunta"):
     if query:
+        query_data(query)
         st.write('oieee')
     else:
         st.warning('deu ruim')
