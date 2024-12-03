@@ -67,7 +67,7 @@ def query_data(query):
     qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever)
     retriver_output = qa.invoke(query)
     print(retriver_output)
-    return as_output, retriver_output
+    return retriver_output['result']
 
 if __name__ == '__main__':
     # load_data()
