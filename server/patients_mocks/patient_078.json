@@ -1,0 +1,103 @@
+{
+    "_id": "patient_078",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Rodrigo Monteiro Andrade",
+        "birth_date": "1974-01-15",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 194, Bairro 7, Cidade 47",
+        "phone": "(11) 7694-7089",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo",
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar",
+            "Alergia a penicilina",
+            "Alergia a poeira"
+        ],
+        "surgeries": [
+            "Colecistectomia",
+            "Herniorrafia inguinal"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-27",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-11-14",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Dor de cabeça",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Hemograma completo",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-12-13",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Tosse seca",
+                "Náusea",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Teste ergométrico",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-12-14",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar esforços físicos",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Febre Amarela"
+        ]
+    }
+}

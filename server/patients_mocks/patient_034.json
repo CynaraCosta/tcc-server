@@ -1,0 +1,82 @@
+{
+    "_id": "patient_034",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Silva Souza",
+        "birth_date": "1961-10-24",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 12, Bairro 31, Cidade 92",
+        "phone": "(11) 3113-8146",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a pólen",
+            "Alergia a frutos do mar",
+            "Alergia a corantes"
+        ],
+        "surgeries": [
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário",
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-12",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Dores musculares",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-06-07",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Manchas na pele",
+                "Dor de cabeça",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Usar medicamento conforme prescrito",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-09-23",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo"
+        ]
+    }
+}

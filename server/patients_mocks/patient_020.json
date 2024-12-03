@@ -1,0 +1,101 @@
+{
+    "_id": "patient_020",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Eduardo Costa Tavares",
+        "birth_date": "1982-08-06",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 160, Bairro 23, Cidade 29",
+        "phone": "(11) 7619-7429",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Alergia a penicilina",
+            "Alergia a glúten",
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Cirurgia de catarata"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-17",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-07-24",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Náusea",
+                "Dores musculares",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Ultrassonografia abdominal",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-04-28",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dor no peito",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-06-17",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Manchas na pele",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola",
+            "Influenza",
+            "Febre Amarela"
+        ]
+    }
+}

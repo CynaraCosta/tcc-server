@@ -1,0 +1,56 @@
+{
+    "_id": "patient_075",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Ribeiro Monteiro",
+        "birth_date": "1998-03-10",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 356, Bairro 44, Cidade 89",
+        "phone": "(11) 2037-7126",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Colesterol alto",
+            "Asma"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar",
+            "Alergia a pólen",
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal",
+            "Laminectomia"
+        ],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-11",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Manchas na pele",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola"
+        ]
+    }
+}

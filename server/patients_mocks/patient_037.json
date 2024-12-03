@@ -1,0 +1,113 @@
+{
+    "_id": "patient_037",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Mariana Oliveira Martins",
+        "birth_date": "2005-10-05",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 258, Bairro 6, Cidade 62",
+        "phone": "(11) 8306-5617",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Hipertensão",
+            "Asma"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Cirurgia de catarata",
+            "Artroplastia de joelho"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-20",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-04-05",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Tomografia computadorizada",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-02-22",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Tomografia computadorizada",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-10-13",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dor de cabeça",
+                "Tontura",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-07-27",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Usar medicamento conforme prescrito",
+                "Evitar alimentos gordurosos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "Sarampo"
+        ]
+    }
+}

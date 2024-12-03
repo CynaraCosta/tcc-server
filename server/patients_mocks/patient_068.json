@@ -1,0 +1,64 @@
+{
+    "_id": "patient_068",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Oliveira Ribeiro",
+        "birth_date": "1962-08-14",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 227, Bairro 30, Cidade 57",
+        "phone": "(11) 9998-6749",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Artrite"
+        ],
+        "allergies": [
+            "Alergia a lactose",
+            "Alergia a poeira"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-28",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Vômitos",
+                "Tontura",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-05-27",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Ultrassonografia abdominal",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV"
+        ]
+    }
+}

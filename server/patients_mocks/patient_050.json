@@ -1,0 +1,67 @@
+{
+    "_id": "patient_050",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "João Martins Ribeiro",
+        "birth_date": "1961-04-08",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 449, Bairro 38, Cidade 14",
+        "phone": "(11) 8289-4243",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Artrite"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Amigdalectomia"
+        ],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-02",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-09-17",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Tontura",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B"
+        ]
+    }
+}

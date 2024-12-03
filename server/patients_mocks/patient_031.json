@@ -1,0 +1,106 @@
+{
+    "_id": "patient_031",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Mariana Andrade Souza",
+        "birth_date": "1965-03-23",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 173, Bairro 40, Cidade 98",
+        "phone": "(11) 9753-6962",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Colesterol alto"
+        ],
+        "allergies": [
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Losartana 50 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-01",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dor no peito",
+                "Vômitos",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Usar medicamento conforme prescrito",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-01-25",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-09-03",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Perda de apetite",
+                "Náusea",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Tomografia computadorizada",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-11-26",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Tosse seca",
+                "Dores musculares",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Varicela",
+            "Febre Amarela",
+            "Hepatite A"
+        ]
+    }
+}

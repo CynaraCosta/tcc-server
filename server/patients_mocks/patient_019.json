@@ -1,0 +1,67 @@
+{
+    "_id": "patient_019",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Laura Pereira Costa",
+        "birth_date": "1996-11-26",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 440, Bairro 18, Cidade 18",
+        "phone": "(11) 5162-8501",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Colesterol alto"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Cirurgia de catarata"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-22",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Tontura",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Eletrocardiograma",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-01-22",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Perda de apetite",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "Hepatite A"
+        ]
+    }
+}

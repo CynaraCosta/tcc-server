@@ -1,0 +1,55 @@
+{
+    "_id": "patient_076",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Lucas Ribeiro Ribeiro",
+        "birth_date": "1993-08-26",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 241, Bairro 30, Cidade 58",
+        "phone": "(11) 5568-2677",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Diabetes tipo 2"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-12",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Tontura",
+                "Dores articulares",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Usar medicamento conforme prescrito",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza",
+            "HPV",
+            "Meningite",
+            "Sarampo"
+        ]
+    }
+}

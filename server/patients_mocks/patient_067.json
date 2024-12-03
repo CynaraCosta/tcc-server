@@ -1,0 +1,114 @@
+{
+    "_id": "patient_067",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Laura Tavares Andrade",
+        "birth_date": "1984-12-23",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 206, Bairro 48, Cidade 65",
+        "phone": "(11) 3412-4712",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-06",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-12-26",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Palpitações",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-02-19",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Refluxo",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Eletrocardiograma",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-01-21",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Dor no peito",
+                "Febre alta",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-08-02",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite",
+            "Influenza"
+        ]
+    }
+}

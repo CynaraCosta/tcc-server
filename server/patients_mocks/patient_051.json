@@ -1,0 +1,71 @@
+{
+    "_id": "patient_051",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Silva Pereira",
+        "birth_date": "1996-03-24",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 494, Bairro 31, Cidade 39",
+        "phone": "(11) 3422-8756",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia",
+            "Hipertensão",
+            "Asma"
+        ],
+        "allergies": [
+            "Alergia a penicilina",
+            "Alergia a poeira",
+            "Alergia a glúten"
+        ],
+        "surgeries": [
+            "Cesárea",
+            "Cirurgia cardíaca"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-08",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-06-14",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Dor de cabeça",
+                "Palpitações",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "Sarampo"
+        ]
+    }
+}

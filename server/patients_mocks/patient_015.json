@@ -1,0 +1,52 @@
+{
+    "_id": "patient_015",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Monteiro Tavares",
+        "birth_date": "1973-02-10",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 15, Bairro 28, Cidade 51",
+        "phone": "(11) 7675-7397",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-13",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Tétano"
+        ]
+    }
+}

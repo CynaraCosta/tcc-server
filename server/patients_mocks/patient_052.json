@@ -1,0 +1,54 @@
+{
+    "_id": "patient_052",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Fábio Tavares Pereira",
+        "birth_date": "1988-06-05",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 29, Bairro 29, Cidade 40",
+        "phone": "(11) 6519-6729",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Asma",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal",
+            "Cirurgia de catarata"
+        ],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-14",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Refluxo",
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19"
+        ]
+    }
+}

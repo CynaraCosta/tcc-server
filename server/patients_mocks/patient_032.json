@@ -1,0 +1,118 @@
+{
+    "_id": "patient_032",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Pedro Costa Tavares",
+        "birth_date": "1995-11-15",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 182, Bairro 36, Cidade 52",
+        "phone": "(11) 1043-8552",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão",
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-19",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Teste ergométrico",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-01-22",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Dores musculares",
+                "Perda de apetite",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar alimentos gordurosos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-11-03",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Dores musculares",
+                "Náusea",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-11-11",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Refluxo",
+                "Inchaço nas pernas",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Ressonância magnética",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-01-04",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola",
+            "HPV",
+            "Varicela"
+        ]
+    }
+}

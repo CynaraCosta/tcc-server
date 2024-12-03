@@ -1,0 +1,98 @@
+{
+    "_id": "patient_033",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Ribeiro Oliveira",
+        "birth_date": "1967-12-18",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 63, Bairro 31, Cidade 48",
+        "phone": "(11) 8653-3974",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Asma"
+        ],
+        "allergies": [
+            "Alergia a glúten"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-08",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Manchas na pele",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-10-01",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Raio-X do tórax",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-04-03",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Dor de cabeça",
+                "Vômitos",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-11-16",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ultrassonografia abdominal",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "Sarampo",
+            "Hepatite A",
+            "Tétano"
+        ]
+    }
+}

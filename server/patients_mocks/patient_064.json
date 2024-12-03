@@ -1,0 +1,67 @@
+{
+    "_id": "patient_064",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Martins Costa",
+        "birth_date": "1991-12-01",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 37, Bairro 40, Cidade 34",
+        "phone": "(11) 9631-7898",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Diabetes tipo 2",
+            "Fibromialgia",
+            "Insônia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-28",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Manter dieta saudável",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-07-17",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Tontura",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza"
+        ]
+    }
+}

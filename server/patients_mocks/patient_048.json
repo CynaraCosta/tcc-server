@@ -1,0 +1,111 @@
+{
+    "_id": "patient_048",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Andrade Ribeiro",
+        "birth_date": "1996-09-10",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 337, Bairro 31, Cidade 82",
+        "phone": "(11) 6458-6870",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-03-19",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Dor no peito",
+                "Dor de cabeça",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-06-11",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-05-25",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Náusea",
+                "Inchaço nas pernas",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Retorno em 30 dias",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-11-21",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Manchas na pele",
+                "Dores musculares",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Hemograma completo",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-06-26",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Febre Amarela",
+            "Hepatite A"
+        ]
+    }
+}

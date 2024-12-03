@@ -1,0 +1,96 @@
+{
+    "_id": "patient_086",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Fábio Silva Pereira",
+        "birth_date": "2001-08-05",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 343, Bairro 12, Cidade 93",
+        "phone": "(11) 8455-6599",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar"
+        ],
+        "surgeries": [
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-25",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ressonância magnética",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-08-22",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Vômitos",
+                "Cansaço excessivo",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-08-11",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-05-19",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dores articulares",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza",
+            "Hepatite A"
+        ]
+    }
+}

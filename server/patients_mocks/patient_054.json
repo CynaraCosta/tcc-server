@@ -1,0 +1,53 @@
+{
+    "_id": "patient_054",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Rodrigo Pereira Pereira",
+        "birth_date": "1982-12-02",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 166, Bairro 48, Cidade 74",
+        "phone": "(11) 3684-8664",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a pólen",
+            "Alergia a frutos do mar",
+            "Alergia a lactose"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-23",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Palpitações",
+                "Inchaço nas pernas",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Sarampo"
+        ]
+    }
+}

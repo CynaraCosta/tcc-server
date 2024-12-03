@@ -1,0 +1,84 @@
+{
+    "_id": "patient_104",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "João Ribeiro Monteiro",
+        "birth_date": "1976-08-23",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 257, Bairro 49, Cidade 70",
+        "phone": "(11) 9675-3842",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a pólen",
+            "Alergia a frutos do mar",
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Paracetamol 500 mg, se necessário",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-26",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Náusea",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-04-17",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Usar medicamento conforme prescrito",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-12-15",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Manchas na pele",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo"
+        ]
+    }
+}

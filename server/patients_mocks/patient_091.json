@@ -1,0 +1,105 @@
+{
+    "_id": "patient_091",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Juliana Souza Ribeiro",
+        "birth_date": "1998-02-05",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 200, Bairro 2, Cidade 14",
+        "phone": "(11) 8916-8081",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Artrite",
+            "Diabetes tipo 2"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a frutos do mar",
+            "Alergia a pólen"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-11",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Ultrassonografia abdominal",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-12-16",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Dores articulares",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Tomografia computadorizada",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-11-11",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dor no peito",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-05-19",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Cansaço excessivo",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "Rubéola",
+            "Hepatite B"
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "_id": "patient_043",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Silva Silva",
+        "birth_date": "1990-01-12",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 284, Bairro 18, Cidade 96",
+        "phone": "(11) 4287-8946",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão",
+            "Doença de Crohn",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-05",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-06-08",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Refluxo",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-02-06",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Tontura",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-07-15",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Prática regular de exercícios físicos",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Febre Amarela"
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "_id": "patient_071",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Maria Tavares Ribeiro",
+        "birth_date": "1975-11-09",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 337, Bairro 9, Cidade 74",
+        "phone": "(11) 8101-4233",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão"
+        ],
+        "allergies": [
+            "Alergia a glúten",
+            "Alergia a frutos do mar"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-15",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dores musculares",
+                "Tontura",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Raio-X do tórax",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-11-14",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Exame de glicemia",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Febre Amarela",
+            "Covid-19",
+            "Influenza",
+            "Rubéola"
+        ]
+    }
+}

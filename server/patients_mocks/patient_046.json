@@ -1,0 +1,111 @@
+{
+    "_id": "patient_046",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Pedro Oliveira Andrade",
+        "birth_date": "1963-10-05",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 366, Bairro 33, Cidade 54",
+        "phone": "(11) 2045-9352",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a corantes"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-20",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-08-20",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dor de cabeça",
+                "Tontura",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-04-03",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-03-17",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Perda de apetite",
+                "Tosse seca",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ultrassonografia abdominal",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-12-28",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo",
+            "Febre Amarela",
+            "Rubéola"
+        ]
+    }
+}

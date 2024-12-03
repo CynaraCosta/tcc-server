@@ -1,0 +1,115 @@
+{
+    "_id": "patient_027",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Oliveira Ribeiro",
+        "birth_date": "1986-05-27",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 414, Bairro 5, Cidade 62",
+        "phone": "(11) 2772-7990",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Cirurgia cardíaca"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-17",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Palpitações",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-06-23",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Dores musculares",
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-01-02",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ressonância magnética",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-04-14",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Febre alta",
+                "Perda de apetite",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-08-02",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Dor no peito",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B",
+            "Sarampo",
+            "Meningite"
+        ]
+    }
+}

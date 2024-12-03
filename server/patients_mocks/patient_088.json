@@ -1,0 +1,52 @@
+{
+    "_id": "patient_088",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Souza Martins",
+        "birth_date": "2002-09-23",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 64, Bairro 34, Cidade 71",
+        "phone": "(11) 5472-7053",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a glúten"
+        ],
+        "surgeries": [
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-04",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite",
+            "Varicela",
+            "Hepatite B",
+            "Covid-19"
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "_id": "patient_072",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Monteiro Andrade",
+        "birth_date": "1982-12-17",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 186, Bairro 41, Cidade 52",
+        "phone": "(11) 4378-9395",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a corantes"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-07",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Ultrassonografia abdominal",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Palpitações",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-04-18",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-05-06",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Palpitações",
+                "Vômitos",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-06-01",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Hemograma completo",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite",
+            "Varicela"
+        ]
+    }
+}

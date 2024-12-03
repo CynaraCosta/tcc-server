@@ -1,0 +1,69 @@
+{
+    "_id": "patient_087",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Pereira Andrade",
+        "birth_date": "1969-10-09",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 454, Bairro 36, Cidade 98",
+        "phone": "(11) 9956-7502",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a pólen",
+            "Alergia a corantes"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-21",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Exame de glicemia",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-04-08",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Dores musculares",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza",
+            "Sarampo",
+            "Meningite",
+            "HPV"
+        ]
+    }
+}

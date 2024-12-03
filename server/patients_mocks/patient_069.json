@@ -1,0 +1,118 @@
+{
+    "_id": "patient_069",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Laura Andrade Costa",
+        "birth_date": "1981-10-08",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 287, Bairro 38, Cidade 51",
+        "phone": "(11) 4315-3920",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Alergia a poeira"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia",
+            "Omeprazol 20 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-01-27",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Prática regular de exercícios físicos",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-10-24",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Hemograma completo",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-02-11",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dores articulares",
+                "Inchaço nas pernas",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-05-01",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dor no peito",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-01-20",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dor de cabeça",
+                "Palpitações",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Exame de glicemia",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B",
+            "Influenza",
+            "Tétano",
+            "Febre Amarela"
+        ]
+    }
+}

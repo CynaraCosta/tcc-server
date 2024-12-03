@@ -1,0 +1,91 @@
+{
+    "_id": "patient_016",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Gabriel Martins Ribeiro",
+        "birth_date": "2002-10-14",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 227, Bairro 23, Cidade 81",
+        "phone": "(11) 5846-8169",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia",
+            "Artrite",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Cirurgia bariátrica"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-06",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Febre alta",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-07-23",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Vômitos",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Retorno em 30 dias",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-04-07",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Tosse seca",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola",
+            "Varicela",
+            "Tétano",
+            "Hepatite B"
+        ]
+    }
+}

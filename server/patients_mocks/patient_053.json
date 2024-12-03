@@ -1,0 +1,101 @@
+{
+    "_id": "patient_053",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Oliveira Souza",
+        "birth_date": "2005-09-18",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 118, Bairro 45, Cidade 2",
+        "phone": "(11) 3501-4335",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo",
+            "Colesterol alto"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a frutos do mar",
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-10-06",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-02-04",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-08-03",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Manchas na pele",
+                "Febre alta",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar alimentos gordurosos",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-01-15",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Hepatite A",
+            "Covid-19",
+            "Influenza"
+        ]
+    }
+}

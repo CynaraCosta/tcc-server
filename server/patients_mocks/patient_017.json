@@ -1,0 +1,87 @@
+{
+    "_id": "patient_017",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Maria Ribeiro Silva",
+        "birth_date": "1977-06-16",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 35, Bairro 17, Cidade 89",
+        "phone": "(11) 1978-6934",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-21",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-12-06",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Perda de apetite",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Exame de glicemia",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-01-01",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Febre alta",
+                "Dor no peito",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Hemograma completo",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Meningite",
+            "Influenza"
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "_id": "patient_042",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Martins Andrade",
+        "birth_date": "2005-08-20",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 342, Bairro 22, Cidade 42",
+        "phone": "(11) 5671-2486",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Hipotireoidismo",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a penicilina",
+            "Alergia a glúten",
+            "Alergia a frutos do mar"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal",
+            "Cirurgia de catarata"
+        ],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-26",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Náusea",
+                "Febre alta",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Usar medicamento conforme prescrito",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-03-12",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Dor de cabeça",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Teste ergométrico",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Rubéola",
+            "Sarampo"
+        ]
+    }
+}

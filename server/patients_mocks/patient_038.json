@@ -1,0 +1,119 @@
+{
+    "_id": "patient_038",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Fábio Martins Pereira",
+        "birth_date": "1970-08-11",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 255, Bairro 37, Cidade 96",
+        "phone": "(11) 8027-6021",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão",
+            "Doença de Crohn",
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-12",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-07-09",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Dor de cabeça",
+                "Perda de apetite",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-06-23",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Náusea",
+                "Tosse seca",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-05-06",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Palpitações",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Exame de urina",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-11-24",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Tomografia computadorizada",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista",
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B",
+            "HPV",
+            "Rubéola",
+            "Hepatite A"
+        ]
+    }
+}

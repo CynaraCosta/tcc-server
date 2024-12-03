@@ -1,0 +1,113 @@
+{
+    "_id": "patient_041",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Monteiro Ribeiro",
+        "birth_date": "1976-06-25",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 441, Bairro 30, Cidade 93",
+        "phone": "(11) 1338-1306",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn"
+        ],
+        "allergies": [
+            "Alergia a corantes"
+        ],
+        "surgeries": [
+            "Laminectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-11",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Náusea",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Teste ergométrico",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-06-09",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Tomografia computadorizada",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-03-02",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-01-20",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Refluxo",
+                "Manchas na pele",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-11-02",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "Covid-19",
+            "Rubéola",
+            "Influenza"
+        ]
+    }
+}

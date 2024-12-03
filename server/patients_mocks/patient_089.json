@@ -1,0 +1,68 @@
+{
+    "_id": "patient_089",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Renata Martins Pereira",
+        "birth_date": "1967-01-24",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 449, Bairro 48, Cidade 12",
+        "phone": "(11) 3927-9970",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Artrite"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia",
+            "Omeprazol 20 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-09",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Dores articulares",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-01-21",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Tontura",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Tomografia computadorizada",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "Febre Amarela"
+        ]
+    }
+}

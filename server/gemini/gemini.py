@@ -6,9 +6,7 @@ from config import Config
 from database.connection import db
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_community.document_loaders.json_loader import JSONLoader
-from langchain.docstore.document import Document
 import json
-
 
 key = Config.GEMINI_TOKEN
 
@@ -17,29 +15,52 @@ embedding_model = GoogleGenerativeAIEmbeddings(google_api_key=key, model="models
 
 def load_data():
     loader = DirectoryLoader(
-    './patients_mocks',
-    glob='./*.json',
-    show_progress=True,
-    loader_cls=JSONLoader,
-    loader_kwargs={'jq_schema':'.content', 'text_content': False}
+        './patients_mocks',
+        glob='./*.json',
+        show_progress=True,
+        loader_cls=JSONLoader,
+        loader_kwargs={'jq_schema': '.content', 'text_content': False}
     )
     raw_data = loader.load()
-    processed_data = []
     for doc in raw_data:
         if 'source' in doc.metadata:
             with open(doc.metadata['source'], 'r', encoding='utf-8') as f:
                 json_content = json.load(f)
             
-            content = json.dumps(json_content, ensure_ascii=False)
-            processed_data.append(Document(page_content=content, metadata=doc.metadata))
-    
-    collection = db.test_patients
-    vectorStore = MongoDBAtlasVectorSearch.from_documents(processed_data, embedding_model, collection=collection)
+            patient_info = json_content.get('patient_info', {})
+            medical_history = json_content.get('medical_history', {})
+            consultations = json_content.get('consultations', [])
+            vaccine_info = json_content.get('vaccine_info', {})
+            
+            all_content = json.dumps({
+                "patient_info": patient_info,
+                "medical_history": medical_history,
+                "consultations": consultations,
+                "vaccine_info": vaccine_info
+            }, ensure_ascii=False)
+            
+            embedding = embedding_model.embed_query(all_content)
+            
+            document = {
+                "_id": json_content.get('_id'),
+                "doctor_id": json_content.get('doctor_id'),
+                "patient_info": patient_info,
+                "medical_history": medical_history,
+                "consultations": consultations,
+                "vaccine_info": vaccine_info,
+                "patient_embeddings": embedding,
+                "text": all_content
+            }
+            
+            collection = db.patients
+            collection.insert_one(document)
+
+    print("Dados carregados e processados com sucesso!")
     
 
 def query_data(query):
-    collection = db.test_patients
-    vectorStore = MongoDBAtlasVectorSearch(collection, embedding_model, index_name='langchain_vectorSearch')
+    collection = db.patients
+    vectorStore = MongoDBAtlasVectorSearch(collection, embedding_model, index_name='langchain_patients_vector_search_index', embedding_key='patient_embeddings')
     docs = vectorStore.similarity_search(query, K=5)
     as_output = docs[0].page_content
     retriever = vectorStore.as_retriever()
@@ -50,4 +71,19 @@ def query_data(query):
 
 if __name__ == '__main__':
     # load_data()
-    query_data("Qual foi a última consulta que o paciente João da Silva fez, e quais exames foram requisitados?")
+    # query_data("Faça um resumo do que acontece na última consulta do paciente Carlos Ribeiro Silva")
+    pass
+
+
+# {
+#   "mappings": {
+#     "dynamic": true,
+#     "fields": {
+#       "patient_embeddings": {
+#         "dimensions": 768,
+#         "similarity": "cosine",
+#         "type": "knnVector"
+#       }
+#     }
+#   }
+# }

@@ -1,0 +1,83 @@
+{
+    "_id": "patient_035",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Juliana Ribeiro Silva",
+        "birth_date": "1977-08-02",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 336, Bairro 37, Cidade 13",
+        "phone": "(11) 8482-1098",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a glúten",
+            "Alergia a poeira"
+        ],
+        "surgeries": [
+            "Amigdalectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-02",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Palpitações",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Raio-X do tórax",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-01-08",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dores articulares",
+                "Náusea",
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-08-09",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Vômitos",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19"
+        ]
+    }
+}

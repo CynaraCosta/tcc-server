@@ -1,0 +1,83 @@
+{
+    "_id": "patient_080",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Monteiro Silva",
+        "birth_date": "1997-09-11",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 460, Bairro 14, Cidade 78",
+        "phone": "(11) 2350-4095",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-06",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Raio-X do tórax",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-08-28",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ultrassonografia abdominal",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-08-26",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Usar medicamento conforme prescrito",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola"
+        ]
+    }
+}

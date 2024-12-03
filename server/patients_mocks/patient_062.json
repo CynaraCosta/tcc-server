@@ -1,0 +1,114 @@
+{
+    "_id": "patient_062",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Martins Ribeiro",
+        "birth_date": "1998-05-23",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 408, Bairro 42, Cidade 48",
+        "phone": "(11) 8948-9980",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Doença de Crohn"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Amigdalectomia",
+            "Herniorrafia inguinal"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-10-14",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Dores articulares",
+                "Vômitos",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-05-24",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Vômitos",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Exame de urina",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-11-04",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dores articulares",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-04-04",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-04-09",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Febre Amarela",
+            "Tétano"
+        ]
+    }
+}

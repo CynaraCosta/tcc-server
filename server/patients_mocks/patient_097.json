@@ -1,0 +1,98 @@
+{
+    "_id": "patient_097",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Costa Tavares",
+        "birth_date": "1982-05-18",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 165, Bairro 17, Cidade 24",
+        "phone": "(11) 9038-7895",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Cirurgia cardíaca"
+        ],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-10-25",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dor no peito",
+                "Refluxo",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-03-05",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-10-14",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Náusea",
+                "Tosse seca",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-02-04",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Perda de apetite",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Retorno em 30 dias",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "Influenza",
+            "Rubéola"
+        ]
+    }
+}

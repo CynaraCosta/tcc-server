@@ -1,0 +1,82 @@
+{
+    "_id": "patient_029",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Juliana Martins Tavares",
+        "birth_date": "1983-05-08",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 316, Bairro 2, Cidade 67",
+        "phone": "(11) 3230-2332",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo",
+            "Depressão"
+        ],
+        "allergies": [
+            "Alergia a penicilina",
+            "Alergia a lactose"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário",
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-17",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-10-14",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-05-18",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Vômitos",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "Febre Amarela",
+            "Meningite",
+            "Sarampo"
+        ]
+    }
+}

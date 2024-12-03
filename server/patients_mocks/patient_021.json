@@ -1,0 +1,98 @@
+{
+    "_id": "patient_021",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Renata Oliveira Tavares",
+        "birth_date": "1960-05-04",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 97, Bairro 24, Cidade 45",
+        "phone": "(11) 9585-4923",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão",
+            "Colesterol alto",
+            "Hipotireoidismo"
+        ],
+        "allergies": [
+            "Alergia a glúten"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-11",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Raio-X do tórax",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-07-23",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Manchas na pele",
+                "Cansaço excessivo",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Exame de glicemia",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Retorno em 30 dias",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-05-11",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-04-19",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Dores musculares",
+                "Manchas na pele",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A"
+        ]
+    }
+}

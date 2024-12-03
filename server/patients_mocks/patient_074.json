@@ -1,0 +1,52 @@
+{
+    "_id": "patient_074",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Gabriel Martins Oliveira",
+        "birth_date": "1996-09-24",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 82, Bairro 2, Cidade 25",
+        "phone": "(11) 9477-8688",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo",
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a lactose",
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-03",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Raio-X do tórax",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo"
+        ]
+    }
+}

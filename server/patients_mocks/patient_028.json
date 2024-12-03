@@ -1,0 +1,51 @@
+{
+    "_id": "patient_028",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Eduardo Ribeiro Costa",
+        "birth_date": "1986-07-18",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 401, Bairro 23, Cidade 77",
+        "phone": "(11) 2165-2749",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão"
+        ],
+        "allergies": [
+            "Alergia a glúten",
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Cirurgia cardíaca",
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-15",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Febre alta",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano"
+        ]
+    }
+}

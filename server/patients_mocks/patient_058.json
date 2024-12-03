@@ -1,0 +1,106 @@
+{
+    "_id": "patient_058",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Gabriel Oliveira Costa",
+        "birth_date": "2000-11-11",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 99, Bairro 22, Cidade 93",
+        "phone": "(11) 7743-1696",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo"
+        ],
+        "allergies": [
+            "Alergia a penicilina",
+            "Alergia a glúten"
+        ],
+        "surgeries": [
+            "Cirurgia bariátrica",
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia",
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-01-26",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Perda de apetite",
+                "Cansaço excessivo",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Exame de glicemia",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-09-10",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Dor no peito",
+                "Febre alta",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-12-14",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Tosse seca",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-06-01",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Tontura",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Febre Amarela",
+            "Meningite",
+            "Rubéola"
+        ]
+    }
+}

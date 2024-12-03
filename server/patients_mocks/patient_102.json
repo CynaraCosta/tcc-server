@@ -1,0 +1,83 @@
+{
+    "_id": "patient_102",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Andrade Andrade",
+        "birth_date": "1972-04-11",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 484, Bairro 16, Cidade 83",
+        "phone": "(11) 6654-2594",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Diabetes tipo 2",
+            "Artrite"
+        ],
+        "allergies": [
+            "Alergia a glúten",
+            "Alergia a poeira",
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho",
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-18",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-07-08",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Dor de cabeça",
+                "Cansaço excessivo",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-10-01",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "Tétano",
+            "HPV"
+        ]
+    }
+}
