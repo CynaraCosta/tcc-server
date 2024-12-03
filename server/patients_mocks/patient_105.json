@@ -1,0 +1,66 @@
+{
+    "_id": "patient_105",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Ana Oliveira Souza",
+        "birth_date": "1995-05-09",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 333, Bairro 38, Cidade 65",
+        "phone": "(11) 6111-5614",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Cirurgia de catarata",
+            "Amigdalectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-03-27",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-10-11",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B",
+            "Hepatite A"
+        ]
+    }
+}

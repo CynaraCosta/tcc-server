@@ -1,0 +1,119 @@
+{
+    "_id": "patient_007",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Clara Andrade Tavares",
+        "birth_date": "1972-04-04",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 331, Bairro 36, Cidade 6",
+        "phone": "(11) 5937-4660",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Artrite",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Amigdalectomia",
+            "Laminectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-05",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Dores articulares",
+                "Dor de cabeça",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Tomografia computadorizada",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-12-15",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-03-24",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-10-10",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-12-11",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Refluxo",
+                "Tontura",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Ressonância magnética",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "Sarampo"
+        ]
+    }
+}

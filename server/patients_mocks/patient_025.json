@@ -1,0 +1,98 @@
+{
+    "_id": "patient_025",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Mariana Costa Ribeiro",
+        "birth_date": "2002-10-27",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 288, Bairro 18, Cidade 40",
+        "phone": "(11) 5336-3401",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Artrite",
+            "Depressão"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-10",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Dores musculares",
+                "Vômitos",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ressonância magnética",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-07-18",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-06-08",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-09-26",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Dores articulares",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos",
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "_id": "patient_018",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Ribeiro Silva",
+        "birth_date": "1963-06-05",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 211, Bairro 4, Cidade 43",
+        "phone": "(11) 5861-1914",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia",
+            "Diabetes tipo 2",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a glúten"
+        ],
+        "surgeries": [
+            "Apendicectomia",
+            "Laminectomia"
+        ],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-14",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Hepatite A",
+            "Meningite",
+            "Febre Amarela"
+        ]
+    }
+}

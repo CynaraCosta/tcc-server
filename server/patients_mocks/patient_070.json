@@ -1,0 +1,119 @@
+{
+    "_id": "patient_070",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Andrade Tavares",
+        "birth_date": "1984-01-21",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 161, Bairro 13, Cidade 64",
+        "phone": "(11) 3290-2967",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Artrite"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-06",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-07-23",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Tontura",
+                "Dor de cabeça",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Tomografia computadorizada",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-10-18",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Vômitos",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Raio-X do tórax",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-08-23",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-12-12",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo",
+            "Tétano",
+            "Covid-19"
+        ]
+    }
+}

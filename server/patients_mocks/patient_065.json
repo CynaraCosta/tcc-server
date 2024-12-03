@@ -1,0 +1,102 @@
+{
+    "_id": "patient_065",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Tavares Pereira",
+        "birth_date": "1964-06-02",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 3, Bairro 15, Cidade 36",
+        "phone": "(11) 4171-7662",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Fibromialgia",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-14",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Retorno em 30 dias",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-01-07",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Palpitações",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-06-17",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Manchas na pele",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-09-10",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Manchas na pele",
+                "Febre alta",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito",
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Sarampo",
+            "Hepatite B",
+            "Varicela"
+        ]
+    }
+}

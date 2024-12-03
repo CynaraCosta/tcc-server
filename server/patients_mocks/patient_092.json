@@ -1,0 +1,99 @@
+{
+    "_id": "patient_092",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Monteiro Oliveira",
+        "birth_date": "1973-04-03",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 223, Bairro 22, Cidade 60",
+        "phone": "(11) 6191-2818",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade",
+            "Depressão",
+            "Hipotireoidismo"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-21",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Vômitos",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-08-24",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Dores musculares",
+                "Dor no peito",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-04-24",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-01-16",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza",
+            "Hepatite B"
+        ]
+    }
+}

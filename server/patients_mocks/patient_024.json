@@ -1,0 +1,51 @@
+{
+    "_id": "patient_024",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Eduardo Andrade Pereira",
+        "birth_date": "1991-03-24",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 297, Bairro 49, Cidade 3",
+        "phone": "(11) 1194-6164",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a corantes",
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Apendicectomia",
+            "Amigdalectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-27",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "Sarampo"
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "_id": "patient_098",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Souza Monteiro",
+        "birth_date": "1971-10-12",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 212, Bairro 2, Cidade 14",
+        "phone": "(11) 9450-9588",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Colesterol alto",
+            "Doença de Crohn"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Laminectomia",
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-22",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Náusea",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "HPV"
+        ]
+    }
+}

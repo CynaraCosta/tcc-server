@@ -1,0 +1,85 @@
+{
+    "_id": "patient_066",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Pedro Tavares Souza",
+        "birth_date": "1996-11-10",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 383, Bairro 12, Cidade 72",
+        "phone": "(11) 5196-1592",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia",
+            "Gastrite crônica",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-03",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Dor no peito",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Raio-X do tórax",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Manter dieta saudável",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-09-08",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Dores articulares",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-01-20",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Manchas na pele",
+                "Dor no peito",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Raio-X do tórax",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "Sarampo",
+            "Tétano",
+            "Rubéola"
+        ]
+    }
+}

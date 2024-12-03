@@ -1,0 +1,47 @@
+{
+    "_id": "patient_060",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Monteiro Souza",
+        "birth_date": "1963-07-13",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 52, Bairro 40, Cidade 39",
+        "phone": "(11) 9939-1322",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-10",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Refluxo",
+                "Tosse seca",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "_id": "patient_014",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Carlos Ribeiro Martins",
+        "birth_date": "1996-02-23",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 327, Bairro 19, Cidade 27",
+        "phone": "(11) 7522-6372",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a corantes",
+            "Alergia a penicilina",
+            "Alergia a lactose"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-03-23",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Tontura",
+                "Febre alta",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite",
+            "Tétano",
+            "Hepatite A",
+            "Covid-19"
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "_id": "patient_095",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Laura Monteiro Tavares",
+        "birth_date": "1993-05-11",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 358, Bairro 25, Cidade 27",
+        "phone": "(11) 5403-8541",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia",
+            "Asma",
+            "Doença de Crohn"
+        ],
+        "allergies": [
+            "Alergia a penicilina",
+            "Alergia a lactose",
+            "Alergia a poeira"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-01-24",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Dores musculares",
+                "Dor no peito",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-08-21",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dor no peito",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "HPV"
+        ]
+    }
+}

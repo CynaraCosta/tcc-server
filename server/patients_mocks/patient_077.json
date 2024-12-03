@@ -1,0 +1,119 @@
+{
+    "_id": "patient_077",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Ana Tavares Ribeiro",
+        "birth_date": "1982-12-05",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 317, Bairro 50, Cidade 19",
+        "phone": "(11) 7670-7315",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão",
+            "Artrite",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar",
+            "Alergia a penicilina",
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-03",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Tontura",
+                "Refluxo",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-05-06",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Perda de apetite",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Retorno em 30 dias",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-04-21",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-04-25",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Tontura",
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Ultrassonografia abdominal",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-09-28",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Náusea",
+                "Perda de apetite",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Varicela",
+            "Sarampo",
+            "HPV"
+        ]
+    }
+}

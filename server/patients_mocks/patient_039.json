@@ -1,0 +1,68 @@
+{
+    "_id": "patient_039",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Laura Martins Monteiro",
+        "birth_date": "2003-07-10",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 337, Bairro 22, Cidade 64",
+        "phone": "(11) 5029-8335",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Diabetes tipo 2"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a lactose",
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-26",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Febre alta",
+                "Perda de apetite",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Raio-X do tórax",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-11-08",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Febre alta",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Febre Amarela"
+        ]
+    }
+}

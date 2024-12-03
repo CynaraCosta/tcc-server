@@ -1,0 +1,87 @@
+{
+    "_id": "patient_096",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Pedro Andrade Monteiro",
+        "birth_date": "1992-01-11",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 305, Bairro 23, Cidade 45",
+        "phone": "(11) 7116-2554",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Amigdalectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-18",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Dores musculares",
+                "Manchas na pele",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Eletrocardiograma",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-11-26",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Refluxo",
+                "Tontura",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Exame de glicemia",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-09-12",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Febre alta",
+                "Dores articulares",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "Influenza"
+        ]
+    }
+}

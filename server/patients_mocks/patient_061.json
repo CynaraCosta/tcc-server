@@ -1,0 +1,72 @@
+{
+    "_id": "patient_061",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Mariana Tavares Costa",
+        "birth_date": "1963-11-16",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 488, Bairro 46, Cidade 95",
+        "phone": "(11) 1912-4337",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Diabetes tipo 2",
+            "Colesterol alto"
+        ],
+        "allergies": [
+            "Alergia a corantes",
+            "Alergia a glúten",
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Laminectomia"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-22",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-06-16",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Febre alta",
+                "Tosse seca",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite"
+        ]
+    }
+}

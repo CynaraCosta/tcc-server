@@ -1,0 +1,72 @@
+{
+    "_id": "patient_103",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Fernanda Andrade Andrade",
+        "birth_date": "1986-12-28",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 105, Bairro 26, Cidade 65",
+        "phone": "(11) 8090-3500",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Amigdalectomia",
+            "Cirurgia de catarata"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-04",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Dores musculares",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Hemograma completo",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-09-02",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Tosse seca",
+                "Náusea",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Eletrocardiograma",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Febre Amarela",
+            "Varicela",
+            "HPV",
+            "Hepatite B"
+        ]
+    }
+}

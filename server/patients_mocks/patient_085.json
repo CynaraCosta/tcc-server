@@ -1,0 +1,52 @@
+{
+    "_id": "patient_085",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Clara Tavares Monteiro",
+        "birth_date": "1966-02-05",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 155, Bairro 35, Cidade 51",
+        "phone": "(11) 5421-3991",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo"
+        ],
+        "allergies": [
+            "Alergia a glúten"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho",
+            "Amigdalectomia"
+        ],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia",
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-11",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Dor de cabeça",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo",
+            "Tétano",
+            "Rubéola"
+        ]
+    }
+}

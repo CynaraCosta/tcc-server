@@ -1,0 +1,98 @@
+{
+    "_id": "patient_026",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "João Andrade Tavares",
+        "birth_date": "1962-09-21",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 225, Bairro 31, Cidade 96",
+        "phone": "(11) 1194-2942",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn"
+        ],
+        "allergies": [
+            "Alergia a glúten"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho",
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-19",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Manchas na pele",
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-01-04",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Manchas na pele",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Prática regular de exercícios físicos",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-08-17",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Agendar consulta com especialista",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-10-04",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Vômitos",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Rubéola",
+            "Covid-19"
+        ]
+    }
+}

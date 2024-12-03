@@ -1,0 +1,65 @@
+{
+    "_id": "patient_059",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Ana Tavares Martins",
+        "birth_date": "1966-10-20",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 350, Bairro 39, Cidade 37",
+        "phone": "(11) 6520-4889",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão",
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Alergia a glúten",
+            "Alergia a penicilina"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Losartana 50 mg, 1x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-16",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Dores articulares",
+                "Tosse seca",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-04-25",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo",
+            "Tétano"
+        ]
+    }
+}

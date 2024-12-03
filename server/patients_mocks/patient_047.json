@@ -1,0 +1,119 @@
+{
+    "_id": "patient_047",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Fernanda Ribeiro Andrade",
+        "birth_date": "1966-08-08",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 49, Bairro 14, Cidade 97",
+        "phone": "(11) 6955-6498",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipertensão",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Alergia a lactose"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal",
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-24",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-02-10",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Dores musculares",
+                "Dores articulares",
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-11-12",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-03-05",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Dores articulares",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Usar medicamento conforme prescrito",
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-04-05",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Exame de glicemia",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Agendar consulta com especialista",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "Sarampo"
+        ]
+    }
+}

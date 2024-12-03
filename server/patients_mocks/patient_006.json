@@ -1,0 +1,62 @@
+{
+    "_id": "patient_006",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Souza Souza",
+        "birth_date": "1966-10-11",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 275, Bairro 48, Cidade 46",
+        "phone": "(11) 8474-5378",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar",
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Cirurgia cardíaca"
+        ],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-14",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Tosse seca",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-12-07",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Dores musculares"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano"
+        ]
+    }
+}

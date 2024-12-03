@@ -1,0 +1,87 @@
+{
+    "_id": "patient_073",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Fernanda Souza Martins",
+        "birth_date": "1991-05-22",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 13, Bairro 6, Cidade 71",
+        "phone": "(11) 4417-2524",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Insônia",
+            "Artrite"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar",
+            "Alergia a poeira"
+        ],
+        "surgeries": [
+            "Cirurgia bariátrica",
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-05-16",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Manchas na pele",
+                "Cansaço excessivo",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-05-07",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Vômitos",
+                "Palpitações",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Manter dieta saudável",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-09-28",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Dificuldade para respirar",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B"
+        ]
+    }
+}

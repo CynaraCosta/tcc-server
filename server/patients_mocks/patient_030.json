@@ -1,0 +1,83 @@
+{
+    "_id": "patient_030",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Oliveira Oliveira",
+        "birth_date": "1974-05-19",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 429, Bairro 5, Cidade 90",
+        "phone": "(11) 3471-5382",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Cirurgia bariátrica"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-01-16",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Vômitos",
+                "Tosse seca"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Teste ergométrico",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-11-12",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Refluxo",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax",
+                "Hemograma completo",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-08-15",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dificuldade para respirar",
+                "Tontura",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "Febre Amarela"
+        ]
+    }
+}

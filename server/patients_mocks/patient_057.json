@@ -1,0 +1,90 @@
+{
+    "_id": "patient_057",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Souza Tavares",
+        "birth_date": "1994-07-26",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 24, Bairro 3, Cidade 56",
+        "phone": "(11) 9758-5565",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Cirurgia cardíaca",
+            "Cirurgia bariátrica"
+        ],
+        "current_medications": [
+            "Omeprazol 20 mg, 1x ao dia",
+            "Losartana 50 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-01",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Febre alta",
+                "Manchas na pele",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ultrassonografia abdominal",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-11-15",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Dores articulares"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-09-15",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Usar medicamento conforme prescrito",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Febre Amarela",
+            "HPV",
+            "Influenza",
+            "Sarampo"
+        ]
+    }
+}

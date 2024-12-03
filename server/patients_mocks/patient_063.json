@@ -1,0 +1,82 @@
+{
+    "_id": "patient_063",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Monteiro Ribeiro",
+        "birth_date": "1984-09-25",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 300, Bairro 15, Cidade 90",
+        "phone": "(11) 7214-3288",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Colesterol alto",
+            "Insônia"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Simvastatina 40 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-02",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Evitar alimentos gordurosos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-06-25",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Dor de cabeça",
+                "Dores musculares",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-10-14",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza",
+            "HPV"
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "_id": "patient_099",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Juliana Andrade Costa",
+        "birth_date": "1994-02-04",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 398, Bairro 44, Cidade 58",
+        "phone": "(11) 4431-1199",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Colesterol alto"
+        ],
+        "allergies": [
+            "Alergia a lactose",
+            "Alergia a penicilina",
+            "Alergia a pólen"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-04-10",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Teste ergométrico",
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-07-26",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-05-17",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Refluxo",
+                "Cansaço excessivo",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ressonância magnética",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo",
+            "Tétano",
+            "Influenza",
+            "Febre Amarela"
+        ]
+    }
+}

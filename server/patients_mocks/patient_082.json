@@ -1,0 +1,71 @@
+{
+    "_id": "patient_082",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Fábio Souza Oliveira",
+        "birth_date": "1960-08-22",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 5, Bairro 50, Cidade 13",
+        "phone": "(11) 2377-6991",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Depressão",
+            "Fibromialgia"
+        ],
+        "allergies": [
+            "Alergia a poeira",
+            "Alergia a frutos do mar"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho"
+        ],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-06",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Tomografia computadorizada",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-11-13",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Teste ergométrico",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "Hepatite A",
+            "Sarampo",
+            "Rubéola"
+        ]
+    }
+}

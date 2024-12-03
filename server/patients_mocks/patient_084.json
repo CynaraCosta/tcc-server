@@ -1,0 +1,100 @@
+{
+    "_id": "patient_084",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Andrade Martins",
+        "birth_date": "2005-11-06",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 13, Bairro 15, Cidade 37",
+        "phone": "(11) 9220-9888",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Doença de Crohn",
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Alergia a lactose",
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-10",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Manchas na pele",
+                "Dor de cabeça"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Exame de urina",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-08-26",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Vômitos",
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-07-04",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Febre alta",
+                "Vômitos",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-04-26",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Teste ergométrico",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos",
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19",
+            "Meningite"
+        ]
+    }
+}

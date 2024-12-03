@@ -1,0 +1,79 @@
+{
+    "_id": "patient_101",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Andrade Ribeiro",
+        "birth_date": "1971-11-16",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 478, Bairro 42, Cidade 63",
+        "phone": "(11) 4587-2913",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo",
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Alergia a pólen"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-15",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dor de cabeça",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-09-01",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-11-03",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dores musculares",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Manter dieta saudável",
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Tétano"
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "_id": "patient_008",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Pedro Monteiro Monteiro",
+        "birth_date": "1968-06-07",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 308, Bairro 18, Cidade 44",
+        "phone": "(11) 4314-9552",
+        "insurance": "Plano Saúde A"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Ansiedade"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-03",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos"
+            ]
+        },
+        {
+            "date": "2024-08-11",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-10-12",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Dor no peito",
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite",
+            "Varicela",
+            "Hepatite A",
+            "HPV"
+        ]
+    }
+}

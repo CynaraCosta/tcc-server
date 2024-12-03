@@ -1,0 +1,100 @@
+{
+    "_id": "patient_079",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Juliana Tavares Ribeiro",
+        "birth_date": "1999-10-14",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 268, Bairro 17, Cidade 32",
+        "phone": "(11) 3626-7476",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Artrite",
+            "Diabetes tipo 2"
+        ],
+        "allergies": [
+            "Alergia a lactose"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia",
+            "Simvastatina 40 mg, 1x ao dia",
+            "Omeprazol 20 mg, 1x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-04",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Teste ergométrico",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-11-06",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Manchas na pele",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-11-22",
+            "reason": "Consulta por refluxo",
+            "symptoms": [
+                "Dor de cabeça",
+                "Náusea",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-04-05",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Náusea",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Eletrocardiograma",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Sarampo",
+            "Covid-19"
+        ]
+    }
+}

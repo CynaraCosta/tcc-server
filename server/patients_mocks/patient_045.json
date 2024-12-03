@@ -1,0 +1,100 @@
+{
+    "_id": "patient_045",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Ana Martins Martins",
+        "birth_date": "1970-05-25",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 496, Bairro 46, Cidade 10",
+        "phone": "(11) 4367-9595",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Ansiedade",
+            "Hipotireoidismo",
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Alergia a glúten"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-02-02",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Manchas na pele",
+                "Inchaço nas pernas",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Teste ergométrico",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-08-03",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Ingerir mais líquidos",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-07-14",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Dores articulares",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Tomografia computadorizada",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-03-11",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dores musculares",
+                "Vômitos",
+                "Dor no peito"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "HPV"
+        ]
+    }
+}

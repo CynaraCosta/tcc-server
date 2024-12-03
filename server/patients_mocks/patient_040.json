@@ -1,0 +1,66 @@
+{
+    "_id": "patient_040",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "João Andrade Martins",
+        "birth_date": "1989-09-04",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 490, Bairro 22, Cidade 8",
+        "phone": "(11) 2077-6362",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Artrite",
+            "Depressão"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Apendicectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-12-08",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-06-15",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Febre alta",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Covid-19"
+        ]
+    }
+}

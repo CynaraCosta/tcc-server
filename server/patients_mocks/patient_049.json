@@ -1,0 +1,106 @@
+{
+    "_id": "patient_049",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Costa Pereira",
+        "birth_date": "1993-05-18",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 368, Bairro 27, Cidade 40",
+        "phone": "(11) 6127-8642",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Colesterol alto",
+            "Artrite"
+        ],
+        "allergies": [
+            "Alergia a lactose",
+            "Alergia a corantes"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho"
+        ],
+        "current_medications": [
+            "Simvastatina 40 mg, 1x ao dia",
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-04",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Palpitações",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Ressonância magnética",
+                "Hemograma completo",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Agendar consulta com especialista",
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-07-23",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Ressonância magnética"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-10-21",
+            "reason": "Consulta por tosse seca",
+            "symptoms": [
+                "Dores articulares",
+                "Inchaço nas pernas"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito"
+            ]
+        },
+        {
+            "date": "2024-12-06",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Dor no peito",
+                "Dor de cabeça",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Tomografia computadorizada",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar alimentos gordurosos",
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano",
+            "HPV",
+            "Covid-19",
+            "Meningite"
+        ]
+    }
+}

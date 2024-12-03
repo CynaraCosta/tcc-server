@@ -1,0 +1,72 @@
+{
+    "_id": "patient_013",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Beatriz Souza Ribeiro",
+        "birth_date": "1968-06-04",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 267, Bairro 13, Cidade 40",
+        "phone": "(11) 7656-9801",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia"
+        ],
+        "allergies": [
+            "Alergia a lactose",
+            "Alergia a glúten",
+            "Alergia a poeira"
+        ],
+        "surgeries": [
+            "Artroplastia de joelho",
+            "Herniorrafia inguinal"
+        ],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-09-02",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Manter dieta saudável",
+                "Evitar alimentos gordurosos"
+            ]
+        },
+        {
+            "date": "2024-04-07",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Dores articulares",
+                "Perda de apetite"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "HPV",
+            "Rubéola",
+            "Tétano"
+        ]
+    }
+}

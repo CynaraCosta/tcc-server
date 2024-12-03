@@ -1,0 +1,52 @@
+{
+    "_id": "patient_094",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Lucas Tavares Andrade",
+        "birth_date": "1975-01-16",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 214, Bairro 13, Cidade 13",
+        "phone": "(11) 3416-5991",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Hipotireoidismo"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-27",
+            "reason": "Consulta por perda de apetite",
+            "symptoms": [
+                "Vômitos",
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Teste ergométrico",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Ingerir mais líquidos",
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Meningite",
+            "Tétano",
+            "Febre Amarela",
+            "Sarampo"
+        ]
+    }
+}

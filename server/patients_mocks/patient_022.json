@@ -1,0 +1,88 @@
+{
+    "_id": "patient_022",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Oliveira Silva",
+        "birth_date": "1982-05-16",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 300, Bairro 39, Cidade 35",
+        "phone": "(11) 2461-7589",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Diabetes tipo 2",
+            "Gastrite crônica",
+            "Hipotireoidismo"
+        ],
+        "allergies": [
+            "Alergia a pólen"
+        ],
+        "surgeries": [
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Paracetamol 500 mg, se necessário"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-03-09",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Dor no peito",
+                "Inchaço nas pernas",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Manter dieta saudável",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-04-03",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Ressonância magnética",
+                "Ultrassonografia abdominal"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-09-06",
+            "reason": "Consulta por vômitos",
+            "symptoms": [
+                "Vômitos",
+                "Febre alta",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Evitar esforços físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite A",
+            "Varicela",
+            "Covid-19"
+        ]
+    }
+}

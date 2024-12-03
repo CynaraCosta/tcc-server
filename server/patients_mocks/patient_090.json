@@ -1,0 +1,51 @@
+{
+    "_id": "patient_090",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Gabriel Silva Monteiro",
+        "birth_date": "1998-10-04",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 293, Bairro 50, Cidade 81",
+        "phone": "(11) 3179-2849",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Colesterol alto",
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [
+            "Herniorrafia inguinal",
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Losartana 50 mg, 1x ao dia",
+            "Metformina 850 mg, 2x ao dia"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-06-18",
+            "reason": "Consulta por dificuldade para respirar",
+            "symptoms": [
+                "Refluxo"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Eletrocardiograma",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Influenza"
+        ]
+    }
+}

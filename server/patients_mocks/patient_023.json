@@ -1,0 +1,86 @@
+{
+    "_id": "patient_023",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Carolina Oliveira Ribeiro",
+        "birth_date": "1969-02-06",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 329, Bairro 20, Cidade 100",
+        "phone": "(11) 5841-2211",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Insônia",
+            "Hipertensão"
+        ],
+        "allergies": [
+            "Alergia a corantes",
+            "Alergia a frutos do mar"
+        ],
+        "surgeries": [
+            "Cirurgia de catarata",
+            "Cesárea"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-10-01",
+            "reason": "Consulta por dor de cabeça",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-02-12",
+            "reason": "Consulta por manchas na pele",
+            "symptoms": [
+                "Dor de cabeça",
+                "Febre alta",
+                "Dificuldade para respirar"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-04-10",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Palpitações",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Ultrassonografia abdominal",
+                "Exame de urina",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Prática regular de exercícios físicos"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Hepatite B",
+            "Meningite",
+            "Febre Amarela",
+            "Tétano"
+        ]
+    }
+}

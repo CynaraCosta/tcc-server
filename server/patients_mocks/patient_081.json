@@ -1,0 +1,70 @@
+{
+    "_id": "patient_081",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Maria Pereira Oliveira",
+        "birth_date": "1977-01-05",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 189, Bairro 27, Cidade 17",
+        "phone": "(11) 6513-9031",
+        "insurance": "Plano Saúde C"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Asma",
+            "Insônia",
+            "Gastrite crônica"
+        ],
+        "allergies": [
+            "Nenhuma alergia"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-08-22",
+            "reason": "Consulta por cansaço excessivo",
+            "symptoms": [
+                "Dores musculares",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Hemograma completo",
+                "Raio-X do tórax",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-11-17",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Febre alta"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Evitar esforços físicos",
+                "Agendar consulta com especialista"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Varicela",
+            "HPV",
+            "Rubéola"
+        ]
+    }
+}

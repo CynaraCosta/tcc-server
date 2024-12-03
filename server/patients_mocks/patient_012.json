@@ -1,0 +1,70 @@
+{
+    "_id": "patient_012",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "André Andrade Silva",
+        "birth_date": "1998-03-22",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 96, Bairro 50, Cidade 94",
+        "phone": "(11) 2180-5896",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Doença de Crohn"
+        ],
+        "allergies": [
+            "Alergia a corantes"
+        ],
+        "surgeries": [
+            "Laminectomia",
+            "Colecistectomia"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-01-28",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Dor no peito",
+                "Vômitos",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Hemograma completo",
+                "Tomografia computadorizada"
+            ],
+            "instructions": [
+                "Prática regular de exercícios físicos",
+                "Usar medicamento conforme prescrito",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-04-06",
+            "reason": "Consulta por dor no peito",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Dores articulares",
+                "Cansaço excessivo"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Retorno em 30 dias"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Febre Amarela"
+        ]
+    }
+}

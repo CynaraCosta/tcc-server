@@ -1,0 +1,96 @@
+{
+    "_id": "patient_009",
+    "doctor_id": "doctor_002",
+    "patient_info": {
+        "name": "Mariana Costa Costa",
+        "birth_date": "1979-12-19",
+        "gender": "Feminino",
+        "address": "Rua Aleatória 420, Bairro 13, Cidade 51",
+        "phone": "(11) 1674-6797",
+        "insurance": "Plano Saúde B"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Colesterol alto"
+        ],
+        "allergies": [
+            "Alergia a penicilina"
+        ],
+        "surgeries": [
+            "Cirurgia de catarata"
+        ],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-11-06",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Refluxo",
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-11-16",
+            "reason": "Consulta por tontura",
+            "symptoms": [
+                "Inchaço nas pernas",
+                "Palpitações",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "Raio-X do tórax"
+            ],
+            "instructions": [
+                "Evitar esforços físicos",
+                "Manter dieta saudável",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-02-26",
+            "reason": "Consulta por dores articulares",
+            "symptoms": [
+                "Palpitações"
+            ],
+            "exams_requested": [
+                "Exame de urina",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Manter dieta saudável",
+                "Evitar esforços físicos",
+                "Ingerir mais líquidos"
+            ]
+        },
+        {
+            "date": "2024-10-11",
+            "reason": "Consulta por dores musculares",
+            "symptoms": [
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Eletrocardiograma",
+                "Teste ergométrico",
+                "Hemograma completo"
+            ],
+            "instructions": [
+                "Evitar alimentos gordurosos",
+                "Usar medicamento conforme prescrito"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "Tétano"
+        ]
+    }
+}

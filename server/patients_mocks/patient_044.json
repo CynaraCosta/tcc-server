@@ -1,0 +1,117 @@
+{
+    "_id": "patient_044",
+    "doctor_id": "doctor_001",
+    "patient_info": {
+        "name": "Rafael Oliveira Ribeiro",
+        "birth_date": "1986-03-23",
+        "gender": "Masculino",
+        "address": "Rua Aleatória 191, Bairro 47, Cidade 57",
+        "phone": "(11) 6880-2283",
+        "insurance": "Particular"
+    },
+    "medical_history": {
+        "chronic_conditions": [
+            "Gastrite crônica",
+            "Fibromialgia",
+            "Diabetes tipo 2"
+        ],
+        "allergies": [
+            "Alergia a frutos do mar",
+            "Alergia a poeira",
+            "Alergia a lactose"
+        ],
+        "surgeries": [],
+        "current_medications": [
+            "Nenhum medicamento"
+        ]
+    },
+    "consultations": [
+        {
+            "date": "2024-07-12",
+            "reason": "Consulta por palpitações",
+            "symptoms": [
+                "Refluxo",
+                "Tosse seca",
+                "Manchas na pele"
+            ],
+            "exams_requested": [
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Agendar consulta com especialista",
+                "Ingerir mais líquidos",
+                "Retorno em 30 dias"
+            ]
+        },
+        {
+            "date": "2024-09-02",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Cansaço excessivo",
+                "Tontura"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "Eletrocardiograma"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Agendar consulta com especialista",
+                "Manter dieta saudável"
+            ]
+        },
+        {
+            "date": "2024-08-01",
+            "reason": "Consulta por náusea",
+            "symptoms": [
+                "Dor no peito",
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Exame de glicemia",
+                "MAPA (Monitorização da Pressão Arterial)",
+                "Exame de urina"
+            ],
+            "instructions": [
+                "Retorno em 30 dias",
+                "Evitar esforços físicos"
+            ]
+        },
+        {
+            "date": "2024-06-06",
+            "reason": "Consulta por inchaço nas pernas",
+            "symptoms": [
+                "Náusea"
+            ],
+            "exams_requested": [
+                "Exame de glicemia"
+            ],
+            "instructions": [
+                "Usar medicamento conforme prescrito",
+                "Agendar consulta com especialista"
+            ]
+        },
+        {
+            "date": "2024-05-28",
+            "reason": "Consulta por febre alta",
+            "symptoms": [
+                "Palpitações",
+                "Vômitos"
+            ],
+            "exams_requested": [
+                "Tomografia computadorizada",
+                "Teste ergométrico"
+            ],
+            "instructions": [
+                "Manter dieta saudável"
+            ]
+        }
+    ],
+    "vaccine_info": {
+        "vaccines": [
+            "HPV",
+            "Influenza"
+        ]
+    }
+}
