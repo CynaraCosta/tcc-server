@@ -68,11 +68,21 @@ def get_explorer_carousel():
 @app.route('/v1/history-cards', methods=['GET'])
 def get_history_cards():
     cards = get_conversations()
+    subtitle = ''
+    selected_cards = []
+
+    if len(cards) > 3:
+        subtitle = 'Ver mais'
+
+    if len(cards) <= 3:
+        selected_cards = cards 
+    else:
+        selected_cards = cards[-3:]
 
     response_data = {
         "title": "Histórico",
-        "subtitle": "Ver mais",
-        "cards": cards
+        "subtitle": subtitle,
+        "cards": selected_cards
     }
 
     return jsonify(response_data)
