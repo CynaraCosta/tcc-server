@@ -1,6 +1,7 @@
 from flask import Flask, request, make_response, jsonify
 from datetime import datetime
-from .database.conversation.conversation import (get_or_create_conversation, add_message_to_conversation, generate_rag_response)
+from .database.conversation.conversation import (
+    get_or_create_conversation, add_message_to_conversation, generate_rag_response, get_conversations)
 
 
 app = Flask(__name__)
@@ -66,10 +67,12 @@ def get_explorer_carousel():
 
 @app.route('/v1/history-cards', methods=['GET'])
 def get_history_cards():
+    cards = get_conversations()
+
     response_data = {
         "title": "Histórico",
         "subtitle": "Ver mais",
-        "cards": []
+        "cards": cards
     }
 
     return jsonify(response_data)
@@ -84,21 +87,25 @@ def send_chat_question():
         user_sender = data.get('sender')
         bot_sender = 'chatbot'
         doctor_id = 'doctor_001'
-        conversation_id = data.get('conversation_id')
+        conversation_id = request.args.get('conversationId')
 
         if not user_question:
             return jsonify({"error": "The 'question' field is required."}), 400
 
-        # add user message to mongo
-        conversation = get_or_create_conversation(conversation_id=conversation_id, doctor_id=doctor_id)
-        add_message_to_conversation(conversation["_id"], user_sender, user_question, user_timestamp, doctor_id)
-        # call gemini passing the question
+        
+        conversation = get_or_create_conversation(
+            conversation_id=conversation_id, doctor_id=doctor_id)
+        add_message_to_conversation(
+            conversation["_id"], user_sender, user_question, user_timestamp, doctor_id)
+        
         bot_respose = generate_rag_response(user_question)
-        # add gemini message to mongo
+        
         current_timestamp = datetime.utcnow().isoformat() + "Z"
-        add_message_to_conversation(conversation["_id"], bot_sender, bot_respose, current_timestamp, doctor_id)
+        add_message_to_conversation(
+            conversation["_id"], bot_sender, bot_respose, current_timestamp, doctor_id)
 
         response_data = {
+            "_id": conversation["_id"],
             "message": bot_respose,
             "sender": bot_sender,
             "timestamp": current_timestamp

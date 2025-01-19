@@ -38,3 +38,19 @@ def generate_rag_response(user_question):
     response = query_data(user_question)
     # {'query': 'Qual o plano de saúde da paciente Beatriz Oliveira Ribeiro?', 'result': 'O plano de saúde da paciente Beatriz Oliveira Ribeiro é o Plano Saúde C.\n'}
     return response
+
+def get_conversations():
+    conversations = collection.find()
+
+    response = []
+    for conversation in conversations:
+        if conversation['messages']:
+            first_message = conversation['messages'][0]
+            conversation_id = conversation['_id']
+            response.append({
+                'title': first_message['message'],
+                'icon': 'message',
+                'deeplink': f'/chat?id={conversation_id}'
+            })
+
+    return response
