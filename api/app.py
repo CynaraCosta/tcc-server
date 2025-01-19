@@ -1,5 +1,6 @@
 from flask import Flask, request, make_response, jsonify
 from datetime import datetime
+from .database.conversation.conversation import (get_or_create_conversation, add_message_to_conversation, generate_rag_response)
 
 
 app = Flask(__name__)
@@ -81,18 +82,25 @@ def send_chat_question():
         user_question = data.get('message')
         user_timestamp = data.get('timestamp')
         user_sender = data.get('sender')
+        bot_sender = 'chatbot'
+        doctor_id = 'doctor_001'
+        conversation_id = data.get('conversation_id')
 
         if not user_question:
             return jsonify({"error": "The 'question' field is required."}), 400
 
         # add user message to mongo
+        conversation = get_or_create_conversation(conversation_id=conversation_id, doctor_id=doctor_id)
+        add_message_to_conversation(conversation["_id"], user_sender, user_question, user_timestamp, doctor_id)
         # call gemini passing the question
+        bot_respose = generate_rag_response(user_question)
         # add gemini message to mongo
-
         current_timestamp = datetime.utcnow().isoformat() + "Z"
+        add_message_to_conversation(conversation["_id"], bot_sender, bot_respose, current_timestamp, doctor_id)
+
         response_data = {
-            "message": f"Response coming from the RAG for the question: '{user_question}'",
-            "sender": "chatbot",
+            "message": bot_respose,
+            "sender": bot_sender,
             "timestamp": current_timestamp
         }
 

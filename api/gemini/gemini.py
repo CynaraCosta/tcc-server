@@ -2,8 +2,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 from langchain.chains import RetrievalQA
-from config import Config
-from database.connection import db
+from ..config import Config
+from ..database.connection import db
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_community.document_loaders.json_loader import JSONLoader
 import json

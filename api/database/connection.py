@@ -1,7 +1,8 @@
 import pymongo
-from config import Config
+from ..config import Config
 
 client = pymongo.MongoClient(Config.MONGO_URI)
+print(client.server_info())
 db = client.tcc
 # collection = db.tests
 
