@@ -1,7 +1,7 @@
 from flask import Flask, request, make_response, jsonify
 from datetime import datetime
 from .database.conversation.conversation import (
-    get_or_create_conversation, add_message_to_conversation, generate_rag_response, get_conversations)
+    get_or_create_conversation, add_message_to_conversation, generate_rag_response, get_conversations, get_messages_by_conversation_id)
 
 
 app = Flask(__name__)
@@ -86,6 +86,25 @@ def get_history_cards():
     }
 
     return jsonify(response_data)
+
+@app.route('/v1/get-conversation', methods=['GET'])
+def get_conversation():
+    data = request.get_json()
+    conversation_id = data.get('conversationId')
+
+    messages = get_messages_by_conversation_id(conversation_id=conversation_id)
+
+    formated_messages = [
+        {
+            "text": message['message'],
+            "isUser": message["sender"] == "doctor", 
+            "conversationId": conversation_id,
+        } for message in messages
+    ]
+    response = {
+        "messages": formated_messages
+    }
+    return jsonify(response)
 
 
 @app.route('/v1/send-question', methods=['POST'])

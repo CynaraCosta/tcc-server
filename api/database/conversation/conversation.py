@@ -36,7 +36,6 @@ def add_message_to_conversation(conversation_id, sender, message, timestamp, doc
 
 def generate_rag_response(user_question):
     response = query_data(user_question)
-    # {'query': 'Qual o plano de saúde da paciente Beatriz Oliveira Ribeiro?', 'result': 'O plano de saúde da paciente Beatriz Oliveira Ribeiro é o Plano Saúde C.\n'}
     return response
 
 def get_conversations():
@@ -54,3 +53,9 @@ def get_conversations():
             })
 
     return response
+
+def get_messages_by_conversation_id(conversation_id):
+    conversations = collection.find()
+    for conversation in conversations:
+        if conversation['_id'] == conversation_id:
+            return conversation['messages']
