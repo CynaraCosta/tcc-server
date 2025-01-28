@@ -62,9 +62,35 @@ def query_data(query):
     collection = db.patients
     vectorStore = MongoDBAtlasVectorSearch(collection, embedding_model, index_name='langchain_patients_vector_search_index', embedding_key='patient_embeddings')
     docs = vectorStore.similarity_search(query, K=5)
+
+    prompt_template = ChatPromptTemplate.from_messages([
+        HumanMessagePromptTemplate.from_template(
+            """You are a helpful medical assistant. Based on the following patient information, 
+            please follow these guidelines strictly:
+
+            1. Only use information that is explicitly present in the provided patient records
+            2. If you're unsure about any detail, acknowledge the uncertainty
+            3. Do not make assumptions or infer information not present in the records
+            4. If the information is not available in the patient's data, clearly state that
+            5. Maintain a professional medical tone throughout your response
+            6. Structure your response in a clear, clinical manner
+            7. Detect the language of the question and respond in the same language
+            8. Use appropriate medical terminology for the detected language
+            
+            Patient Information:
+            {context}
+            
+            Question: {question}
+            
+            Please provide a clear and professional medical response, focusing only on factual information 
+            from the patient's records. Use appropriate medical terminology where applicable, while 
+            ensuring the response remains comprehensible and in the same language as the question."""
+        )
+    ])
+
     as_output = docs[0].page_content
     retriever = vectorStore.as_retriever()
-    qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever)
+    qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever, return_source_documents=True, chain_type_kwargs={'prompt': prompt_template})
     retriver_output = qa.invoke(query)
     print(retriver_output)
     return retriver_output['result']
