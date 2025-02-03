@@ -7,11 +7,18 @@ from ..database.connection import db
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_community.document_loaders.json_loader import JSONLoader
 import json
+from langchain_core.prompts import PromptTemplate
+from langchain.chains import LLMChain
+from langchain.chains.combine_documents import create_stuff_documents_chain
+
 
 key = Config.GEMINI_TOKEN
 
-chat_model = ChatGoogleGenerativeAI(google_api_key=key, model="gemini-1.5-flash-latest")
-embedding_model = GoogleGenerativeAIEmbeddings(google_api_key=key, model="models/embedding-001")
+chat_model = ChatGoogleGenerativeAI(
+    google_api_key=key, model="gemini-1.5-flash-latest")
+embedding_model = GoogleGenerativeAIEmbeddings(
+    google_api_key=key, model="models/embedding-001")
+
 
 def load_data():
     loader = DirectoryLoader(
@@ -26,21 +33,21 @@ def load_data():
         if 'source' in doc.metadata:
             with open(doc.metadata['source'], 'r', encoding='utf-8') as f:
                 json_content = json.load(f)
-            
+
             patient_info = json_content.get('patient_info', {})
             medical_history = json_content.get('medical_history', {})
             consultations = json_content.get('consultations', [])
             vaccine_info = json_content.get('vaccine_info', {})
-            
+
             all_content = json.dumps({
                 "patient_info": patient_info,
                 "medical_history": medical_history,
                 "consultations": consultations,
                 "vaccine_info": vaccine_info
             }, ensure_ascii=False)
-            
+
             embedding = embedding_model.embed_query(all_content)
-            
+
             document = {
                 "_id": json_content.get('_id'),
                 "doctor_id": json_content.get('doctor_id'),
@@ -51,17 +58,44 @@ def load_data():
                 "patient_embeddings": embedding,
                 "text": all_content
             }
-            
+
             collection = db.patients
             collection.insert_one(document)
 
     print("Dados carregados e processados com sucesso!")
+
+
+def rewrite_prompt(query):
+    rewrite_prompt = PromptTemplate.from_template(
+        "Reescreva a seguinte consulta de forma objetiva e otimizada para busca sem adicionar informações extras:\n\n"
+        "Consulta original: {query}\n"
+        "Consulta otimizada:"
+    )
+
+    rewrite_chain = LLMChain(llm=chat_model, prompt=rewrite_prompt)
+    improved_query = rewrite_chain.run(query)
     
+    improved_query = improved_query.strip().split("\n")[0]  
+    return improved_query
+
+
+def re_rank_documents(docs):
+    re_ranker = create_stuff_documents_chain(
+        llm=chat_model,
+        prompt=ChatPromptTemplate.from_template("{context}")
+    )
+    ranked_docs = re_ranker.run(docs)
+    return ranked_docs
+
 
 def query_data(query):
     collection = db.patients
-    vectorStore = MongoDBAtlasVectorSearch(collection, embedding_model, index_name='langchain_patients_vector_search_index', embedding_key='patient_embeddings')
-    docs = vectorStore.similarity_search(query, K=5)
+    vectorStore = MongoDBAtlasVectorSearch(
+        collection, embedding_model, index_name='langchain_patients_vector_search_index', embedding_key='patient_embeddings')
+
+    # Query Expansion
+    improved_query = rewrite_prompt(query)
+    print(improved_query)
 
     prompt_template = ChatPromptTemplate.from_messages([
         HumanMessagePromptTemplate.from_template(
@@ -88,12 +122,24 @@ def query_data(query):
         )
     ])
 
-    as_output = docs[0].page_content
     retriever = vectorStore.as_retriever()
-    qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever, return_source_documents=True, chain_type_kwargs={'prompt': prompt_template})
-    retriver_output = qa.invoke(query)
-    print(retriver_output)
-    return retriver_output['result']
+    qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever,
+                                     return_source_documents=True, chain_type_kwargs={'prompt': prompt_template})
+
+    # Iterative Recovery
+    if "não tenho informações suficientes" in retriever_output['result'].lower():
+        print("Executando recuperação iterativa...")
+        additional_docs = vectorStore.similarity_search(
+            improved_query, K=10)  # search with higher k
+        ranked_additional_docs = re_rank_documents(additional_docs)
+        retriever = vectorStore.as_retriever(documents=ranked_additional_docs)
+        qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever, return_source_documents=True, chain_type_kwargs={'prompt': prompt_template})
+        retriever_output = qa.invoke(improved_query)
+
+    print(retriever_output)
+    retriever_output = qa.invoke(query)
+    return retriever_output['result']
+
 
 if __name__ == '__main__':
     # load_data()
