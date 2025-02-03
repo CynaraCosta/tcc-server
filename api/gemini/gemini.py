@@ -9,7 +9,8 @@ from langchain_community.document_loaders.json_loader import JSONLoader
 import json
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from langchain.chains.combine_documents import create_stuff_documents_chain
+import re
+
 
 
 key = Config.GEMINI_TOKEN
@@ -65,6 +66,12 @@ def load_data():
     print("Dados carregados e processados com sucesso!")
 
 
+def remove_markdown(text):
+    """Removes Markdown formatting (like bold and italics) from the response."""
+    text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)  # Remove **bold**
+    text = re.sub(r'\*(.*?)\*', r'\1', text)      # Remove *italic*
+    return text
+
 def rewrite_prompt(query):
     rewrite_prompt = PromptTemplate.from_template(
         "Reescreva a seguinte consulta de forma objetiva e otimizada para busca sem adicionar informações extras:\n\n"
@@ -74,18 +81,16 @@ def rewrite_prompt(query):
 
     rewrite_chain = LLMChain(llm=chat_model, prompt=rewrite_prompt)
     improved_query = rewrite_chain.run(query)
-    
+    print(improved_query)
     improved_query = improved_query.strip().split("\n")[0]  
     return improved_query
 
 
 def re_rank_documents(docs):
-    re_ranker = create_stuff_documents_chain(
-        llm=chat_model,
-        prompt=ChatPromptTemplate.from_template("{context}")
-    )
-    ranked_docs = re_ranker.run(docs)
-    return ranked_docs
+    # Sorts documents by relevance score if available.
+    if all("score" in doc.metadata for doc in docs):
+        return sorted(docs, key=lambda doc: doc.metadata["score"], reverse=True)
+    return docs  
 
 
 def query_data(query):
@@ -95,7 +100,7 @@ def query_data(query):
 
     # Query Expansion
     improved_query = rewrite_prompt(query)
-    print(improved_query)
+    print(f"Improved Query: {improved_query}")
 
     prompt_template = ChatPromptTemplate.from_messages([
         HumanMessagePromptTemplate.from_template(
@@ -110,15 +115,16 @@ def query_data(query):
             6. Structure your response in a clear, clinical manner
             7. Detect the language of the question and respond in the same language
             8. Use appropriate medical terminology for the detected language
+            9. If there ir previous conversation, take it into consideration 
             
             Patient Information:
             {context}
-            
-            Question: {question}
+
+            User's new Question: {question}
             
             Please provide a clear and professional medical response, focusing only on factual information 
             from the patient's records. Use appropriate medical terminology where applicable, while 
-            ensuring the response remains comprehensible and in the same language as the question."""
+            ensuring the response remains comprehensible and must be in the same language as the question."""
         )
     ])
 
@@ -126,19 +132,23 @@ def query_data(query):
     qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever,
                                      return_source_documents=True, chain_type_kwargs={'prompt': prompt_template})
 
-    # Iterative Recovery
+     # First Retrieval
+    retriever_output = qa.invoke(improved_query)
+
+    # **Iterative Recovery** (if needed)
     if "não tenho informações suficientes" in retriever_output['result'].lower():
         print("Executando recuperação iterativa...")
-        additional_docs = vectorStore.similarity_search(
-            improved_query, K=10)  # search with higher k
+        additional_docs = vectorStore.similarity_search(improved_query, K=10)  # Retrieve more documents
         ranked_additional_docs = re_rank_documents(additional_docs)
+
         retriever = vectorStore.as_retriever(documents=ranked_additional_docs)
         qa = RetrievalQA.from_chain_type(chat_model, chain_type='stuff', retriever=retriever, return_source_documents=True, chain_type_kwargs={'prompt': prompt_template})
+
         retriever_output = qa.invoke(improved_query)
 
-    print(retriever_output)
-    retriever_output = qa.invoke(query)
-    return retriever_output['result']
+    cleaned_output = remove_markdown(retriever_output['result'])
+    print(cleaned_output)
+    return cleaned_output
 
 
 if __name__ == '__main__':
