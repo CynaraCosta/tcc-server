@@ -9,7 +9,7 @@ query = st.text_area("Faça a sua pergunta", placeholder="Adicione a pergunta aq
 
 if st.button("Fazer pergunta"):
     if query:
-        response = query_data(query)
+        response = query_data(query)[0]
         st.write(response)
     else:
         st.warning('Por favor, faça uma pergunta!')

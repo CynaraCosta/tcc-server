@@ -35,7 +35,7 @@ def add_message_to_conversation(conversation_id, sender, message, timestamp, doc
 
 
 def generate_rag_response(user_question):
-    response = query_data(user_question)
+    response = query_data(user_question)[0]
     return response
 
 def get_conversations():

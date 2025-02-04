@@ -81,7 +81,6 @@ def rewrite_prompt(query):
 
     rewrite_chain = LLMChain(llm=chat_model, prompt=rewrite_prompt)
     improved_query = rewrite_chain.run(query)
-    print(improved_query)
     improved_query = improved_query.strip().split("\n")[0]  
     return improved_query
 
@@ -147,8 +146,12 @@ def query_data(query):
         retriever_output = qa.invoke(improved_query)
 
     cleaned_output = remove_markdown(retriever_output['result'])
-    print(cleaned_output)
-    return cleaned_output
+
+    source_docs = retriever_output.get("source_documents", [])
+
+    retrieved_ids = [doc.metadata["_id"] for doc in source_docs if doc.metadata["_id"]]
+    print(f'Resposta: {cleaned_output}')
+    return cleaned_output, retrieved_ids
 
 
 if __name__ == '__main__':
