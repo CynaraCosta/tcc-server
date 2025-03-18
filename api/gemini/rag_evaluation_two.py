@@ -2,7 +2,7 @@ import math
 import json
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_community.document_loaders.json_loader import JSONLoader
-from .gemini import query_data  # sua função que chama o RAG
+from .gemini import query_data
 
 
 def generate_mocks():
@@ -74,7 +74,7 @@ def evaluate_queries(test_queries, k=3):
         # Para cada query, a ground truth é todos os documentos dos mocks
         ground_truth = get_ground_truth_for_query(query, mocks)
 
-        # Chama a função do seu RAG que retorna (resposta, [IDs dos documentos])
+        # Chama a função do RAG que retorna (resposta, [IDs dos documentos])
         response, retrieved_ids = query_data(query)
 
         rec = recall_at_k(retrieved_ids, ground_truth, k)
